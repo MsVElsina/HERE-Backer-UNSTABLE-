@@ -1,4 +1,4 @@
-# HE_REloaded Preview for (UE 4.24)
+# HE_REloaded for (UE 4.24)
 Name subject to change, 
 This is my modifided version of the Free Horror Engine Asset for Unreal
 The goal of this project is to expand and improve the amazing HorrorEngine Asset
@@ -17,9 +17,11 @@ These are:
 - Very basic Graphics options
 - Player body
 - Fixed Footsteps trigger based on Animation instead of Delays/Timers
-- Basic AI system with easy drop down configuration
-- Animated Projectile based weapons
-- Ghost Enemy types that require tools to see
+- AI with basic footsteps, attacking animations and deals damage
+- Ghost type enemies (use special equipment to see them)
+- Reworked weapon system
+
+Please remeber to credit me and the other contributors in any releases made with this pack
 
 You can follow the development roadmap here: 
 https://trello.com/b/8AYqMGTp/msvelsina-horror-development-addons-assets

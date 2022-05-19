@@ -1,0 +1,1553 @@
+﻿Log file open, 11/28/20 14:44:06
+LogInit: Display: Running engine for game: HEREloaded
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.269968
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogPluginManager: Mounting plugin RLPlugin
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-14469661
+LogInit: Engine Version: 4.25.4-14469661+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 2009) (), CPU: AMD Ryzen 5 3600 6-Core Processor              , GPU: NVIDIA GeForce RTX 2060
+LogInit: Compiled (64-bit): Oct 11 2020 08:10:49
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line: 
+LogInit: Base Directory: E:/Unreal/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/clair/Documents/Unreal Projects/HEREloaded/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.11.28-19.44.07:057][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.11.28-19.44.07:057][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.11.28-19.44.07:057][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/clair/Documents/Unreal Projects/HEREloaded/Saved/Config/Windows/Engine.ini]
+[2020.11.28-19.44.07:057][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.11.28-19.44.07:057][  0]LogConfig: Setting CVar [[r.ReflectionCaptureResolution:128]]
+[2020.11.28-19.44.07:057][  0]LogConfig: Setting CVar [[r.ReflectionEnvironmentLightmapMixBasedOnRoughness:1]]
+[2020.11.28-19.44.07:057][  0]LogConfig: Setting CVar [[r.AllowOcclusionQueries:1]]
+[2020.11.28-19.44.07:057][  0]LogConfig: Setting CVar [[r.TextureStreaming:1]]
+[2020.11.28-19.44.07:057][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/clair/Documents/Unreal Projects/HEREloaded/Saved/Config/Windows/Engine.ini]
+[2020.11.28-19.44.07:057][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/clair/Documents/Unreal Projects/HEREloaded/Saved/Config/Windows/Engine.ini]
+[2020.11.28-19.44.07:057][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.11.28-19.44.07:057][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.11.28-19.44.07:057][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.11.28-19.44.07:057][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.11.28-19.44.07:057][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.11.28-19.44.07:057][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.11.28-19.44.07:057][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.11.28-19.44.07:057][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.11.28-19.44.07:057][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.11.28-19.44.07:057][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.11.28-19.44.07:057][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.11.28-19.44.07:057][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.11.28-19.44.07:057][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.11.28-19.44.07:057][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.11.28-19.44.07:057][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/clair/Documents/Unreal Projects/HEREloaded/Saved/Config/Windows/Engine.ini]
+[2020.11.28-19.44.07:057][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.11.28-19.44.07:057][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.11.28-19.44.07:057][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.11.28-19.44.07:057][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.11.28-19.44.07:057][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.11.28-19.44.07:057][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.11.28-19.44.07:057][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.11.28-19.44.07:057][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.11.28-19.44.07:057][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.11.28-19.44.07:057][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.11.28-19.44.07:057][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.11.28-19.44.07:057][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.11.28-19.44.07:057][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.11.28-19.44.07:057][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/clair/Documents/Unreal Projects/HEREloaded/Saved/Config/Windows/Engine.ini]
+[2020.11.28-19.44.07:057][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/clair/Documents/Unreal Projects/HEREloaded/Saved/Config/Windows/Engine.ini]
+[2020.11.28-19.44.07:061][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/clair/Documents/Unreal Projects/HEREloaded/Saved/Config/Windows/Scalability.ini]
+[2020.11.28-19.44.07:061][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.11.28-19.44.07:061][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.11.28-19.44.07:061][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/clair/Documents/Unreal Projects/HEREloaded/Saved/Config/Windows/Scalability.ini]
+[2020.11.28-19.44.07:061][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.11.28-19.44.07:061][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/clair/Documents/Unreal Projects/HEREloaded/Saved/Config/Windows/Scalability.ini]
+[2020.11.28-19.44.07:061][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.11.28-19.44.07:061][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.11.28-19.44.07:061][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.11.28-19.44.07:061][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.11.28-19.44.07:061][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.11.28-19.44.07:061][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.11.28-19.44.07:061][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.11.28-19.44.07:061][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.11.28-19.44.07:061][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.11.28-19.44.07:061][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.11.28-19.44.07:061][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.11.28-19.44.07:061][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.11.28-19.44.07:061][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.11.28-19.44.07:061][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.11.28-19.44.07:061][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.11.28-19.44.07:061][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.11.28-19.44.07:061][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.11.28-19.44.07:061][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.11.28-19.44.07:061][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/clair/Documents/Unreal Projects/HEREloaded/Saved/Config/Windows/Scalability.ini]
+[2020.11.28-19.44.07:061][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.11.28-19.44.07:061][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.11.28-19.44.07:061][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.11.28-19.44.07:061][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.11.28-19.44.07:061][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.11.28-19.44.07:061][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.11.28-19.44.07:061][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.11.28-19.44.07:061][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.11.28-19.44.07:061][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.11.28-19.44.07:061][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.11.28-19.44.07:061][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.11.28-19.44.07:061][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.11.28-19.44.07:061][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.11.28-19.44.07:061][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.11.28-19.44.07:061][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.11.28-19.44.07:061][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.11.28-19.44.07:061][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.11.28-19.44.07:061][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.11.28-19.44.07:061][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.11.28-19.44.07:061][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.11.28-19.44.07:061][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.11.28-19.44.07:061][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.11.28-19.44.07:061][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.11.28-19.44.07:061][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.11.28-19.44.07:061][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.11.28-19.44.07:061][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.11.28-19.44.07:061][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.11.28-19.44.07:061][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.11.28-19.44.07:061][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.11.28-19.44.07:062][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.11.28-19.44.07:062][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/clair/Documents/Unreal Projects/HEREloaded/Saved/Config/Windows/Scalability.ini]
+[2020.11.28-19.44.07:062][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.11.28-19.44.07:062][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.11.28-19.44.07:062][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.11.28-19.44.07:062][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.11.28-19.44.07:062][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.11.28-19.44.07:062][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.11.28-19.44.07:062][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.11.28-19.44.07:062][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.11.28-19.44.07:062][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.11.28-19.44.07:062][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/clair/Documents/Unreal Projects/HEREloaded/Saved/Config/Windows/Scalability.ini]
+[2020.11.28-19.44.07:062][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.11.28-19.44.07:062][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.11.28-19.44.07:062][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.11.28-19.44.07:062][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.11.28-19.44.07:062][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.11.28-19.44.07:062][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.11.28-19.44.07:062][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.11.28-19.44.07:062][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.11.28-19.44.07:062][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.11.28-19.44.07:062][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.11.28-19.44.07:062][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.11.28-19.44.07:062][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.11.28-19.44.07:062][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.11.28-19.44.07:062][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.11.28-19.44.07:062][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.11.28-19.44.07:062][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.11.28-19.44.07:062][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.11.28-19.44.07:062][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.11.28-19.44.07:062][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.11.28-19.44.07:062][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.11.28-19.44.07:062][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.11.28-19.44.07:062][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.11.28-19.44.07:062][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.11.28-19.44.07:062][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.11.28-19.44.07:062][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.11.28-19.44.07:062][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.11.28-19.44.07:062][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/clair/Documents/Unreal Projects/HEREloaded/Saved/Config/Windows/Scalability.ini]
+[2020.11.28-19.44.07:062][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.11.28-19.44.07:062][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.11.28-19.44.07:062][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/clair/Documents/Unreal Projects/HEREloaded/Saved/Config/Windows/Scalability.ini]
+[2020.11.28-19.44.07:062][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.11.28-19.44.07:062][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.11.28-19.44.07:062][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.11.28-19.44.07:062][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.11.28-19.44.07:062][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.11.28-19.44.07:062][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.11.28-19.44.07:062][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.11.28-19.44.07:062][  0]LogInit: Selected Device Profile: [Windows]
+[2020.11.28-19.44.07:062][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.11.28-19.44.07:062][  0]LogHAL: Display: Platform has ~ 16 GB [17089306624 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.11.28-19.44.07:062][  0]LogInit: Going up to parent DeviceProfile []
+[2020.11.28-19.44.07:062][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@Cine] File [C:/Users/clair/Documents/Unreal Projects/HEREloaded/Saved/Config/Windows/Scalability.ini]
+[2020.11.28-19.44.07:062][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.11.28-19.44.07:062][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:10.0]]
+[2020.11.28-19.44.07:062][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@Cine] File [C:/Users/clair/Documents/Unreal Projects/HEREloaded/Saved/Config/Windows/Scalability.ini]
+[2020.11.28-19.44.07:062][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:6]]
+[2020.11.28-19.44.07:062][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@Cine] File [C:/Users/clair/Documents/Unreal Projects/HEREloaded/Saved/Config/Windows/Scalability.ini]
+[2020.11.28-19.44.07:062][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.11.28-19.44.07:062][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.11.28-19.44.07:062][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.11.28-19.44.07:062][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:4096]]
+[2020.11.28-19.44.07:062][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:4096]]
+[2020.11.28-19.44.07:062][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0]]
+[2020.11.28-19.44.07:062][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.11.28-19.44.07:062][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.11.28-19.44.07:062][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.11.28-19.44.07:062][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.11.28-19.44.07:062][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.11.28-19.44.07:062][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.11.28-19.44.07:062][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.11.28-19.44.07:062][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:4]]
+[2020.11.28-19.44.07:062][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.11.28-19.44.07:062][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:16]]
+[2020.11.28-19.44.07:062][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.11.28-19.44.07:062][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.11.28-19.44.07:062][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@Cine] File [C:/Users/clair/Documents/Unreal Projects/HEREloaded/Saved/Config/Windows/Scalability.ini]
+[2020.11.28-19.44.07:062][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.11.28-19.44.07:062][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.11.28-19.44.07:062][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.11.28-19.44.07:062][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.11.28-19.44.07:062][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.11.28-19.44.07:062][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:4]]
+[2020.11.28-19.44.07:062][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:1000]]
+[2020.11.28-19.44.07:062][  0]LogConfig: Setting CVar [[r.LensFlareQuality:3]]
+[2020.11.28-19.44.07:063][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.11.28-19.44.07:063][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.11.28-19.44.07:063][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.11.28-19.44.07:063][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.11.28-19.44.07:063][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.11.28-19.44.07:063][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.11.28-19.44.07:063][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.11.28-19.44.07:063][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.11.28-19.44.07:063][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.11.28-19.44.07:063][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.11.28-19.44.07:063][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.11.28-19.44.07:063][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:1       ; bokeh simulation when gathering]]
+[2020.11.28-19.44.07:063][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:5                 ; high number of samples when gathering]]
+[2020.11.28-19.44.07:063][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.11.28-19.44.07:063][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; background scattering occlusion]]
+[2020.11.28-19.44.07:063][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; no bokeh simulation when scattering]]
+[2020.11.28-19.44.07:063][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.25        ; only a maximum of 10% of scattered bokeh]]
+[2020.11.28-19.44.07:063][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:2                ; highest slight out of focus]]
+[2020.11.28-19.44.07:063][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:1    ; bokeh simulation on slight out of focus]]
+[2020.11.28-19.44.07:063][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.11.28-19.44.07:063][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.11.28-19.44.07:063][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.11.28-19.44.07:063][  0]LogConfig: Applying CVar settings from Section [TextureQuality@Cine] File [C:/Users/clair/Documents/Unreal Projects/HEREloaded/Saved/Config/Windows/Scalability.ini]
+[2020.11.28-19.44.07:063][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.11.28-19.44.07:063][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.11.28-19.44.07:063][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.11.28-19.44.07:063][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.11.28-19.44.07:063][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.11.28-19.44.07:063][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.11.28-19.44.07:063][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.11.28-19.44.07:063][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:3000]]
+[2020.11.28-19.44.07:063][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.11.28-19.44.07:063][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@Cine] File [C:/Users/clair/Documents/Unreal Projects/HEREloaded/Saved/Config/Windows/Scalability.ini]
+[2020.11.28-19.44.07:063][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.11.28-19.44.07:063][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.11.28-19.44.07:063][  0]LogConfig: Setting CVar [[r.SSR.Quality:4]]
+[2020.11.28-19.44.07:063][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.11.28-19.44.07:063][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.11.28-19.44.07:063][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.11.28-19.44.07:063][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.11.28-19.44.07:063][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.11.28-19.44.07:063][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.11.28-19.44.07:063][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.11.28-19.44.07:063][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.11.28-19.44.07:063][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.11.28-19.44.07:063][  0]LogConfig: Setting CVar [[r.SSGI.Quality:4]]
+[2020.11.28-19.44.07:063][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.11.28-19.44.07:063][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.11.28-19.44.07:063][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:0]]
+[2020.11.28-19.44.07:063][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:2]]
+[2020.11.28-19.44.07:063][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:32.0]]
+[2020.11.28-19.44.07:063][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:0]]
+[2020.11.28-19.44.07:063][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.11.28-19.44.07:063][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.11.28-19.44.07:063][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:8.0]]
+[2020.11.28-19.44.07:063][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.11.28-19.44.07:063][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.11.28-19.44.07:063][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:30.0]]
+[2020.11.28-19.44.07:063][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:20.0]]
+[2020.11.28-19.44.07:063][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@Cine] File [C:/Users/clair/Documents/Unreal Projects/HEREloaded/Saved/Config/Windows/Scalability.ini]
+[2020.11.28-19.44.07:063][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.11.28-19.44.07:063][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.11.28-19.44.07:063][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@Cine] File [C:/Users/clair/Documents/Unreal Projects/HEREloaded/Saved/Config/Windows/Scalability.ini]
+[2020.11.28-19.44.07:063][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:64]]
+[2020.11.28-19.44.07:063][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:1]]
+[2020.11.28-19.44.07:063][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:32]]
+[2020.11.28-19.44.07:063][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:1]]
+[2020.11.28-19.44.07:063][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:1]]
+[2020.11.28-19.44.07:063][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.11.28-19.44.07:063][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:1]]
+[2020.11.28-19.44.07:063][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.11.28-19.44.07:068][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.11.28-19.44.07:068][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.11.28-19.44.07:068][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2020.11.28-19.44.07:068][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/clair/Documents/Unreal Projects/HEREloaded/Saved/Config/Windows/Engine.ini]
+[2020.11.28-19.44.07:068][  0]LogInit: Computer: CAROLINE
+[2020.11.28-19.44.07:068][  0]LogInit: User: clair
+[2020.11.28-19.44.07:068][  0]LogInit: CPU Page size=4096, Cores=6
+[2020.11.28-19.44.07:068][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.11.28-19.44.07:068][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2020.11.28-19.44.07:068][  0]LogMemory: Platform Memory Stats for Windows
+[2020.11.28-19.44.07:068][  0]LogMemory: Process Physical Memory: 115.90 MB used, 115.91 MB peak
+[2020.11.28-19.44.07:068][  0]LogMemory: Process Virtual Memory: 113.23 MB used, 113.23 MB peak
+[2020.11.28-19.44.07:068][  0]LogMemory: Physical Memory: 7657.71 MB used,  8639.93 MB free, 16297.63 MB total
+[2020.11.28-19.44.07:068][  0]LogMemory: Virtual Memory: 5179.86 MB used,  134212552.00 MB free, 134217728.00 MB total
+[2020.11.28-19.44.07:073][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.11.28-19.44.07:323][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2020.11.28-19.44.07:324][  0]LogInit: Using OS detected language (en-US).
+[2020.11.28-19.44.07:324][  0]LogInit: Using OS detected locale (en-CA).
+[2020.11.28-19.44.07:326][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.11.28-19.44.07:528][  0]LogInit: Setting process to per monitor DPI aware
+[2020.11.28-19.44.07:627][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.11.28-19.44.07:627][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.11.28-19.44.09:911][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.11.28-19.44.09:911][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.11.28-19.44.09:911][  0]LogD3D11RHI: D3D11 adapters:
+[2020.11.28-19.44.09:992][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2060' (Feature Level 11_0)
+[2020.11.28-19.44.09:992][  0]LogD3D11RHI:       5980/0/8148 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2020.11.28-19.44.09:994][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.11.28-19.44.09:994][  0]LogD3D11RHI:       0/0/8148 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.11.28-19.44.09:994][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.11.28-19.44.10:001][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.11.28-19.44.10:002][  0]LogD3D11RHI:     GPU DeviceId: 0x1f08 (for the marketing name, search the web for "GPU Device Id")
+[2020.11.28-19.44.10:002][  0]LogWindows: EnumDisplayDevices:
+[2020.11.28-19.44.10:002][  0]LogWindows:    0. 'NVIDIA GeForce RTX 2060' (P:1 D:1)
+[2020.11.28-19.44.10:002][  0]LogWindows:    1. 'NVIDIA GeForce RTX 2060' (P:0 D:1)
+[2020.11.28-19.44.10:002][  0]LogWindows:    2. 'NVIDIA GeForce RTX 2060' (P:0 D:0)
+[2020.11.28-19.44.10:002][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2060' (P:0 D:0)
+[2020.11.28-19.44.10:002][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2020.11.28-19.44.10:002][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2060
+[2020.11.28-19.44.10:002][  0]LogD3D11RHI:   Driver Version: 457.30 (internal:27.21.14.5730, unified:457.30)
+[2020.11.28-19.44.10:002][  0]LogD3D11RHI:      Driver Date: 11-6-2020
+[2020.11.28-19.44.10:002][  0]LogRHI: Texture pool is 4186 MB (70% of 5980 MB)
+[2020.11.28-19.44.10:060][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.11.28-19.44.10:060][  0]LogD3D11RHI: Async texture creation enabled
+[2020.11.28-19.44.10:060][  0]LogD3D11RHI: Array index from any shader is supported
+[2020.11.28-19.44.10:094][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2020.11.28-19.44.10:525][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.11.28-19.44.10:558][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.11.28-19.44.10:558][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.11.28-19.44.10:558][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.11.28-19.44.10:558][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.11.28-19.44.10:558][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.11.28-19.44.10:558][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.11.28-19.44.10:558][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.11.28-19.44.10:558][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.11.28-19.44.10:558][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.11.28-19.44.10:558][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.11.28-19.44.10:625][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.11.28-19.44.10:625][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.11.28-19.44.10:654][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2020.11.28-19.44.10:675][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.11.28-19.44.10:696][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.11.28-19.44.10:716][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.11.28-19.44.10:738][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.11.28-19.44.10:759][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.11.28-19.44.10:780][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.11.28-19.44.10:822][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.11.28-19.44.10:822][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.11.28-19.44.10:849][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.11.28-19.44.10:849][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.11.28-19.44.10:871][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.11.28-19.44.10:892][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.11.28-19.44.10:913][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.11.28-19.44.10:934][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.11.28-19.44.10:934][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.11.28-19.44.10:997][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.11.28-19.44.11:298][  0]LogShaderCompilers: Guid format shader working directory is -6 characters bigger than the processId version (C:/Users/clair/Documents/Unreal Projects/HEREloaded/Intermediate/Shaders/WorkingDirectory/17484/).
+[2020.11.28-19.44.11:298][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/clair/AppData/Local/Temp/UnrealShaderWorkingDir/71BDA4074A3B531EBB6BB08FDF76172C/'.
+[2020.11.28-19.44.11:299][  0]LogXGEController: Cleaning working directory: C:/Users/clair/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.11.28-19.44.11:299][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.11.28-19.44.11:299][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.11.28-19.44.11:299][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.11.28-19.44.13:944][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.11.28-19.44.13:992][  0]LogDerivedDataCache: Loaded boot cache 0.05s 79MB C:/Users/clair/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.11.28-19.44.13:992][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/clair/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2020.11.28-19.44.13:992][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/clair/Documents/Unreal Projects/HEREloaded/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.11.28-19.44.13:992][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.11.28-19.44.13:992][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/clair/Documents/Unreal Projects/HEREloaded/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.11.28-19.44.13:992][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.11.28-19.44.14:010][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.11.28-19.44.14:010][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.11.28-19.44.14:010][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.11.28-19.44.14:012][  0]LogDerivedDataCache: Using Local data cache path C:/Users/clair/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.11.28-19.44.14:012][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.11.28-19.44.14:012][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.11.28-19.44.14:054][  0]LogSlate: Using FreeType 2.10.0
+[2020.11.28-19.44.14:068][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.11.28-19.44.14:351][  0]LogAssetRegistry: FAssetRegistry took 0.0024 seconds to start up
+[2020.11.28-19.44.14:563][  0]LogInit: Selected Device Profile: [Windows]
+[2020.11.28-19.44.14:911][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.11.28-19.44.14:911][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.11.28-19.44.14:911][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.11.28-19.44.14:911][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.11.28-19.44.14:911][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.11.28-19.44.14:961][  0]LogNetVersion: HEREloaded 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 1582611404)
+[2020.11.28-19.44.18:153][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (0000017C0C6DBB80), frame # 0
+[2020.11.28-19.44.18:153][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000017C0C718540), frame # 0
+[2020.11.28-19.44.18:154][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000017C0C735C00), frame # 0
+[2020.11.28-19.44.18:226][  0]LogPackageLocalizationCache: Processed 17 localized package path(s) for 1 prioritized culture(s) in 0.056472 seconds
+[2020.11.28-19.44.18:231][  0]LogUObjectArray: 15756 objects as part of root set at end of initial load.
+[2020.11.28-19.44.18:231][  0]LogUObjectAllocator: 3925280 out of 0 bytes used by permanent object pool.
+[2020.11.28-19.44.18:231][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.11.28-19.44.19:811][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.11.28-19.44.19:830][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.11.28-19.44.20:316][  0]SourceControl: Source control is disabled
+[2020.11.28-19.44.20:316][  0]SourceControl: Source control is disabled
+[2020.11.28-19.44.20:334][  0]SourceControl: Source control is disabled
+[2020.11.28-19.44.20:351][  0]SourceControl: Source control is disabled
+[2020.11.28-19.44.20:384][  0]SourceControl: Source control is disabled
+[2020.11.28-19.44.20:434][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2020.11.28-19.44.20:434][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2020.11.28-19.44.21:526][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.11.28-19.44.21:622][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.11.28-19.44.21:622][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.11.28-19.44.21:935][  0]LogEngine: Initializing Engine...
+[2020.11.28-19.44.21:935][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2020.11.28-19.44.21:936][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.11.28-19.44.22:199][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.11.28-19.44.22:221][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.11.28-19.44.22:221][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000017C173E2200), frame # 0
+[2020.11.28-19.44.22:221][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000017C17411E40), frame # 0
+[2020.11.28-19.44.22:238][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.11.28-19.44.22:238][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.11.28-19.44.22:238][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.11.28-19.44.22:238][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.11.28-19.44.22:238][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.11.28-19.44.22:238][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.11.28-19.44.22:238][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.11.28-19.44.22:238][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.11.28-19.44.22:238][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.11.28-19.44.22:238][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.11.28-19.44.22:270][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.28-19.44.22:270][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.11.28-19.44.22:356][  0]LogAudioMixer: Display: Using Audio Device Headset Earphone (Razer Kraken 7.1 V2)
+[2020.11.28-19.44.22:356][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.11.28-19.44.22:376][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.11.28-19.44.22:376][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.11.28-19.44.22:377][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.11.28-19.44.22:378][  0]LogInit: FAudioDevice initialized.
+[2020.11.28-19.44.22:378][  0]LogNetVersion: Set ProjectVersion to 1. Version Checksum will be recalculated on next use.
+[2020.11.28-19.44.22:565][  0]LogDerivedDataCache: Saved boot cache 0.19s 75MB C:/Users/clair/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.11.28-19.44.22:568][  0]LogInit: Texture streaming: Enabled
+[2020.11.28-19.44.22:632][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.11.28-19.44.22:632][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.11.28-19.44.22:639][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.11.28-19.44.22:739][  0]LogInit: Transaction tracking system initialized
+[2020.11.28-19.44.22:848][  0]BlueprintLog: New page: Editor Load
+[2020.11.28-19.44.23:181][  0]LocalizationService: Localization service is disabled
+[2020.11.28-19.44.23:554][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2020.11.28-19.44.23:555][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2020.11.28-19.44.23:840][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.11.28-19.44.23:840][  0]LogCook: Display: Mobile HDR setting 1
+[2020.11.28-19.44.24:323][  0]LogFileCache: Scanning file cache for directory 'C:/Users/clair/Documents/Unreal Projects/HEREloaded/Content/' took 0.03s
+[2020.11.28-19.44.24:625][  0]SourceControl: Source control is disabled
+[2020.11.28-19.44.24:625][  0]LogUnrealEdMisc: Loading editor; pre map load, took 21.613
+[2020.11.28-19.44.24:625][  0]Cmd: MAP LOAD FILE="C:/Users/clair/Documents/Unreal Projects/HEREloaded/Content/HorrorEngine/Maps/Overview.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.11.28-19.44.24:625][  0]LightingResults: New page: Lighting Build
+[2020.11.28-19.44.24:626][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.11.28-19.44.24:626][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.28-19.44.24:626][  0]MapCheck: New page: Map Check
+[2020.11.28-19.44.24:626][  0]LightingResults: New page: Lighting Build
+[2020.11.28-19.44.24:636][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000017C173E2200), frame # 0
+[2020.11.28-19.44.24:636][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000017C17411E40), frame # 0
+[2020.11.28-19.44.24:636][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2020.11.28-19.44.25:706][  0]LogLinker: Warning: Unable to load PhysicsSerializer with outer InstancedStaticMeshComponent /Game/HorrorEngine/Blueprints/UsableAssets/Electronics/KeycardControl.KeycardControl_C:KeycardControl_GEN_VARIABLE because its class does not exist
+[2020.11.28-19.44.26:535][  0]LogLinker: Warning: Unable to load PhysicsSerializer with outer InstancedStaticMeshComponent /Game/HorrorEngine/Blueprints/UsableAssets/DoorsAndFurnitures/LadderAdvanced.LadderAdvanced_C:LadderBottom_GEN_VARIABLE because its class does not exist
+[2020.11.28-19.44.26:535][  0]LogLinker: Warning: Unable to load PhysicsSerializer with outer InstancedStaticMeshComponent /Game/HorrorEngine/Blueprints/UsableAssets/DoorsAndFurnitures/LadderAdvanced.LadderAdvanced_C:LadderConnect_GEN_VARIABLE because its class does not exist
+[2020.11.28-19.44.26:535][  0]LogLinker: Warning: Unable to load PhysicsSerializer with outer InstancedStaticMeshComponent /Game/HorrorEngine/Blueprints/UsableAssets/DoorsAndFurnitures/LadderAdvanced.LadderAdvanced_C:LadderMiddle_GEN_VARIABLE because its class does not exist
+[2020.11.28-19.44.26:535][  0]LogLinker: Warning: Unable to load PhysicsSerializer with outer InstancedStaticMeshComponent /Game/HorrorEngine/Blueprints/UsableAssets/DoorsAndFurnitures/LadderAdvanced.LadderAdvanced_C:LadderTop_GEN_VARIABLE because its class does not exist
+[2020.11.28-19.44.28:384][  0]LogBlueprint: Warning: [Compiler HorrorEngine] Input pin  Method  specifying non-default value no longer exists on node  Set members in PostProcessSettings . Please refresh node or reset pin to default value to remove pin.
+[2020.11.28-19.44.35:328][  0]LogLinker: Warning: Failed to load '/Game/HorrorEngine/Blueprints/Structures/HorrorEvent/HorrorEventsMasterFix': Can't find file.
+[2020.11.28-19.44.35:328][  0]LogLinker: Warning: Failed to load '/Game/HorrorEngine/Blueprints/Structures/HorrorEvent/HorrorEventsMasterFix': Can't find file.
+[2020.11.28-19.44.35:328][  0]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/HorrorEngine/Blueprints/Structures/HorrorEvent/HorrorEventsMasterFix.HorrorEventsMasterFix'
+[2020.11.28-19.44.35:331][  0]LogLinker: Warning: Failed to load '/Game/HorrorEngine/Blueprints/Structures/HorrorEvent/HorrorEventFix': Can't find file.
+[2020.11.28-19.44.35:331][  0]LogLinker: Warning: Failed to load '/Game/HorrorEngine/Blueprints/Structures/HorrorEvent/HorrorEventFix': Can't find file.
+[2020.11.28-19.44.35:331][  0]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/HorrorEngine/Blueprints/Structures/HorrorEvent/HorrorEventFix.HorrorEventFix'
+[2020.11.28-19.44.37:859][  0]LogAIModule: Creating AISystem for world Overview
+[2020.11.28-19.44.37:859][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000017C7B7FD000), frame # 0
+[2020.11.28-19.44.37:859][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000017C7B7DFB00), frame # 0
+[2020.11.28-19.44.38:153][  0]Warning:  applied to a non-external Texture2D sampler. This may work by chance on some platforms but is not portable. Please change sampler type to 'External'. Parameter 'Texture' (slot 0) in material 'HE_TvGlow'
+[2020.11.28-19.44.38:153][  0]Warning:  applied to a non-external Texture2D sampler. This may work by chance on some platforms but is not portable. Please change sampler type to 'External'. Parameter 'Texture' (slot 0) in material 'HE_TvGlow'
+[2020.11.28-19.44.38:153][  0]Warning:  applied to a non-external Texture2D sampler. This may work by chance on some platforms but is not portable. Please change sampler type to 'External'. Parameter 'Texture' (slot 0) in material 'HE_TvGlow'
+[2020.11.28-19.44.38:153][  0]Warning:  applied to a non-external Texture2D sampler. This may work by chance on some platforms but is not portable. Please change sampler type to 'External'. Parameter 'Texture' (slot 0) in material 'HE_VhsGlow'
+[2020.11.28-19.44.38:153][  0]Warning:  applied to a non-external Texture2D sampler. This may work by chance on some platforms but is not portable. Please change sampler type to 'External'. Parameter 'Texture' (slot 0) in material 'HE_VhsGlow'
+[2020.11.28-19.44.38:153][  0]Warning:  applied to a non-external Texture2D sampler. This may work by chance on some platforms but is not portable. Please change sampler type to 'External'. Parameter 'Texture' (slot 0) in material 'HE_VhsGlow'
+[2020.11.28-19.44.38:153][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.11.28-19.44.38:272][  0]LogUObjectHash: Compacting FUObjectHashTables data took   5.14ms
+[2020.11.28-19.44.38:279][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.11.28-19.44.38:279][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.262ms to complete.
+[2020.11.28-19.44.38:279][  0]LogFileHelpers: Loading map 'Overview' took 13.655
+[2020.11.28-19.44.38:281][  0]LogUnrealEdMisc: Total Editor Startup Time, took 35.270
+[2020.11.28-19.44.38:400][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.28-19.44.38:406][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.28-19.44.38:413][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.28-19.44.38:419][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.28-19.44.38:443][  0]LogCollectionManager: Loaded 0 collections in 0.000902 seconds
+[2020.11.28-19.44.38:459][  0]LogFileCache: Scanning file cache for directory 'C:/Users/clair/Documents/Unreal Projects/HEREloaded/Saved/Collections/' took 0.00s
+[2020.11.28-19.44.38:459][  0]LogFileCache: Scanning file cache for directory 'C:/Users/clair/Documents/Unreal Projects/HEREloaded/Content/Developers/clair/Collections/' took 0.00s
+[2020.11.28-19.44.38:459][  0]LogFileCache: Scanning file cache for directory 'C:/Users/clair/Documents/Unreal Projects/HEREloaded/Content/Collections/' took 0.00s
+[2020.11.28-19.44.38:459][  0]LogContentBrowser: Native class hierarchy populated in 0.0095 seconds. Added 3409 classes and 808 folders.
+[2020.11.28-19.44.38:461][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.11.28-19.44.38:882][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.11.28-19.44.38:883][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 2 classes and 0 folders.
+[2020.11.28-19.44.39:089][  0]LogSlate: Took 0.005101 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.11.28-19.44.39:096][  0]LogSlate: Took 0.005047 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.11.28-19.44.39:106][  0]LogSlate: Took 0.006793 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.11.28-19.44.39:196][  0]LogRenderer: Reallocating scene render targets to support 256x256 Format 10 NumSamples 1 (Frame:1).
+[2020.11.28-19.44.39:673][  0]LogRenderer: Reallocating scene render targets to support 1208x588 Format 10 NumSamples 1 (Frame:1).
+[2020.11.28-19.44.40:101][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.11.28-19.44.40:101][  0]LogLoad: (Engine Initialization) Total time: 37.09 seconds
+[2020.11.28-19.44.40:101][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.11.28-19.44.40:177][  0]LogAssetRegistry: Asset discovery search completed in 25.8269 seconds
+[2020.11.28-19.44.40:180][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000001 seconds (updated 0 objects)
+[2020.11.28-19.44.40:183][  0]LogContentStreaming: Texture pool size now 3000 MB
+[2020.11.28-19.44.40:232][  0]LogSlate: Took 0.004066 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.11.28-19.44.45:259][282]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/clair/Documents/Unreal Projects/HEREloaded/Content/' took 5.13s
+[2020.11.28-20.19.59:765][677]LogSlate: Took 0.000246 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.11.28-20.19.59:777][677]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/HorrorEngine/Blueprints/Equipment/BP_EquipmentBase.BP_EquipmentBase
+[2020.11.28-20.20.00:168][677]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 125 classes and 0 folders.
+[2020.11.28-20.20.01:068][677]LogSlate: Took 0.004805 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.11.28-20.20.01:105][678]LogSlate: Took 0.005425 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.11.28-20.20.17:008][544]LogRenderer: Reallocating scene render targets to support 1208x720 Format 10 NumSamples 1 (Frame:1).
+[2020.11.28-20.20.55:912][299]BlueprintLog: New page: Compile BP_EquipmentBase
+[2020.11.28-20.20.55:947][299]LogUObjectHash: Compacting FUObjectHashTables data took   3.48ms
+[2020.11.28-20.20.55:977][299]LogSlate: Took 0.006686 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2020.11.28-20.21.34:667][458]LogSlate: Took 0.005251 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2020.11.28-20.22.39:100][693]LogUObjectHash: Compacting FUObjectHashTables data took   3.11ms
+[2020.11.28-20.22.39:102][693]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/HorrorEngine/Maps/Overview' took 0.028
+[2020.11.28-20.22.39:103][693]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/HorrorEngine/Blueprints/Equipment/BP_EquipmentBase] ([1] browsable assets)...
+[2020.11.28-20.22.39:103][693]OBJ SavePackage: Finished generating thumbnails for package [/Game/HorrorEngine/Blueprints/Equipment/BP_EquipmentBase]
+[2020.11.28-20.22.39:133][693]LogSavePackage: Moving 'C:/Users/clair/Documents/Unreal Projects/HEREloaded/Saved/BP_EquipmentBase_Auto1C7599D2A41478DA63E02E48BBCD7478A.tmp' to 'C:/Users/clair/Documents/Unreal Projects/HEREloaded/Saved/Autosaves/Game/HorrorEngine/Blueprints/Equipment/BP_EquipmentBase_Auto1.uasset'
+[2020.11.28-20.22.39:135][693]LogFileHelpers: Auto-saving content packages took 0.032
+[2020.11.28-20.22.41:718][703]BlueprintLog: New page: Compile BP_EquipmentBase
+[2020.11.28-20.22.41:751][703]LogUObjectHash: Compacting FUObjectHashTables data took   2.77ms
+[2020.11.28-20.22.42:402][737]LogSavePackage: Moving 'C:/Users/clair/Documents/Unreal Projects/HEREloaded/Saved/BP_EquipmentBaseA6BBA44F4F932AE85DAEA4BD3C19F2C8.tmp' to 'C:/Users/clair/Documents/Unreal Projects/HEREloaded/Content/HorrorEngine/Blueprints/Equipment/BP_EquipmentBase.uasset'
+[2020.11.28-20.22.42:420][737]AssetCheck: New page: Asset Save: BP_EquipmentBase
+[2020.11.28-20.22.42:420][737]LogContentValidation: Display: Validating Blueprint /Game/HorrorEngine/Blueprints/Equipment/BP_EquipmentBase.BP_EquipmentBase
+[2020.11.28-20.22.56:487][700]BlueprintLog: New page: Compile BP_EquipmentBase
+[2020.11.28-20.22.56:519][700]LogUObjectHash: Compacting FUObjectHashTables data took   3.31ms
+[2020.11.28-20.24.01:634][ 64]BlueprintLog: New page: Compile BP_EquipmentBase
+[2020.11.28-20.24.01:666][ 64]LogUObjectHash: Compacting FUObjectHashTables data took   3.34ms
+[2020.11.28-20.24.02:158][ 88]LogSavePackage: Moving 'C:/Users/clair/Documents/Unreal Projects/HEREloaded/Saved/BP_EquipmentBase4640439F4C519C41C37D6AAA18DC4D67.tmp' to 'C:/Users/clair/Documents/Unreal Projects/HEREloaded/Content/HorrorEngine/Blueprints/Equipment/BP_EquipmentBase.uasset'
+[2020.11.28-20.24.02:172][ 88]AssetCheck: New page: Asset Save: BP_EquipmentBase
+[2020.11.28-20.24.02:172][ 88]LogContentValidation: Display: Validating Blueprint /Game/HorrorEngine/Blueprints/Equipment/BP_EquipmentBase.BP_EquipmentBase
+[2020.11.28-20.24.02:980][131]LogSlate: Window 'BP_EquipmentBase' being destroyed
+[2020.11.28-20.24.02:984][131]LogSlate: Window 'BP_EquipmentBase' being destroyed
+[2020.11.28-20.24.02:992][131]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2020.11.28-20.24.02:992][131]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.28-20.24.14:804][767]LogBlueprint: Error: [Compiler AIBase] In use pin  <Unnamed>  no longer exists on node  Hit React Anim . Please refresh node or break links to remove pin.
+[2020.11.28-20.24.14:804][767]LogBlueprint: Error: [Compiler AIBase] In use pin  Target  no longer exists on node  Hit React Anim . Please refresh node or break links to remove pin.
+[2020.11.28-20.24.14:804][767]LogBlueprint: Error: [Compiler AIBase] Could not find a function named "HitReactAnim" in 'ThirdPerson_AnimBP_C'.
+Make sure 'ThirdPerson_AnimBP_C' has been compiled for  Hit React Anim
+[2020.11.28-20.24.20:412][ 80]LogTemp: Repeating last play command: Selected Viewport
+[2020.11.28-20.24.20:428][ 80]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.28-20.24.20:428][ 80]BlueprintLog: Warning: Blueprint failed to compile:  AIBase
+[2020.11.28-20.24.20:429][ 80]LogCustomDialog: Dialog displayed:
+[2020.11.28-20.24.22:508][ 80]LogSlate: Window 'Blueprint Compilation Errors' being destroyed
+[2020.11.28-20.24.22:514][ 80]PIE: New page: PIE session: Overview (Nov. 28, 2020, 10:24:22 a.m.)
+[2020.11.28-20.24.22:515][ 80]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2020.11.28-20.24.22:516][ 80]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2020.11.28-20.24.22:516][ 80]LogPlayLevel: Creating play world package: /Game/HorrorEngine/Maps/UEDPIE_0_Overview
+[2020.11.28-20.24.22:636][ 80]LogPlayLevel: PIE: StaticDuplicateObject took: (0.119107s)
+[2020.11.28-20.24.22:636][ 80]LogAIModule: Creating AISystem for world Overview
+[2020.11.28-20.24.22:636][ 80]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000017CB3A76600), frame # 19080
+[2020.11.28-20.24.22:636][ 80]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000017CB3A6FD80), frame # 19080
+[2020.11.28-20.24.22:637][ 80]LogPlayLevel: PIE: World Init took: (0.001049s)
+[2020.11.28-20.24.22:637][ 80]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/HorrorEngine/Maps/Overview.Overview to /Game/HorrorEngine/Maps/UEDPIE_0_Overview.Overview (0.120321s)
+[2020.11.28-20.24.22:659][ 80]LogUObjectHash: Compacting FUObjectHashTables data took   3.55ms
+[2020.11.28-20.24.22:662][ 80]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.11.28-20.24.22:662][ 80]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.11.28-20.24.22:662][ 80]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.11.28-20.24.22:662][ 80]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.11.28-20.24.22:662][ 80]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.11.28-20.24.22:662][ 80]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.11.28-20.24.22:662][ 80]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.11.28-20.24.22:662][ 80]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.11.28-20.24.22:663][ 80]LogAudio: Display: Using built-in audio occlusion.
+[2020.11.28-20.24.22:663][ 80]LogAudioMixer: Display: Initializing audio mixer.
+[2020.11.28-20.24.22:665][ 80]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.28-20.24.22:665][ 80]LogAudioMixer: Display: 1: FrontRight
+[2020.11.28-20.24.22:715][ 80]LogAudioMixer: Display: Using Audio Device Headset Earphone (Razer Kraken 7.1 V2)
+[2020.11.28-20.24.22:715][ 80]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.11.28-20.24.22:715][ 80]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.11.28-20.24.22:715][ 80]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.11.28-20.24.22:716][ 80]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.11.28-20.24.22:726][ 80]LogInit: FAudioDevice initialized.
+[2020.11.28-20.24.23:725][ 80]LogLoad: Game class is 'HorrorEngineGameMode_C'
+[2020.11.28-20.24.23:745][ 80]LogWorld: Bringing World /Game/HorrorEngine/Maps/UEDPIE_0_Overview.Overview up for play (max tick rate 0) at 2020.11.28-15.24.23
+[2020.11.28-20.24.23:753][ 80]LogWorld: Bringing up level for play took: 0.026286
+[2020.11.28-20.24.23:753][ 80]LogOnline: OSS: Creating online subsystem instance for: :Context_6
+[2020.11.28-20.24.23:755][ 80]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2020.11.28-20.24.23:756][ 80]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
+[2020.11.28-20.24.23:801][ 80]PIE: Server logged in
+[2020.11.28-20.24.23:802][ 80]PIE: Play in editor total start time 3.376 seconds.
+[2020.11.28-20.24.25:821][114]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsWithTag_OutActors_1' of length 0 in '/Game/HorrorEngine/Blueprints/Core/HorrorEvents.HorrorEvents_C:ExecuteUbergraph_HorrorEvents'!
+[2020.11.28-20.24.25:821][114]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsWithTag_OutActors_1' of length 0 in '/Game/HorrorEngine/Blueprints/Core/HorrorEvents.HorrorEvents_C:ExecuteUbergraph_HorrorEvents'!
+[2020.11.28-20.24.26:401][140]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.28-20.24.26:401][140]LogWorld: BeginTearingDown for /Game/HorrorEngine/Maps/UEDPIE_0_Overview
+[2020.11.28-20.24.26:402][140]LogWorld: UWorld::CleanupWorld for Overview, bSessionEnded=true, bCleanupResources=true
+[2020.11.28-20.24.26:407][140]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.28-20.24.26:414][140]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.11.28-20.24.26:422][140]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.28-20.24.26:477][140]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.28-20.24.26:498][140]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000017CB3A6FD80), frame # 19140
+[2020.11.28-20.24.26:498][140]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000017CB3A76600), frame # 19140
+[2020.11.28-20.24.26:527][140]LogUObjectHash: Compacting FUObjectHashTables data took   4.33ms
+[2020.11.28-20.24.26:573][141]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2020.11.28-20.24.28:025][205]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/HorrorEngine/AIRevamp/AIBase.AIBase
+[2020.11.28-20.24.31:755][351]BlueprintLog: New page: Compile AIBase
+[2020.11.28-20.24.31:771][351]LogBlueprint: Error: [Compiler AIBase] In use pin  <Unnamed>  no longer exists on node  Hit React Anim . Please refresh node or break links to remove pin.
+[2020.11.28-20.24.31:772][351]LogBlueprint: Error: [Compiler AIBase] In use pin  Target  no longer exists on node  Hit React Anim . Please refresh node or break links to remove pin.
+[2020.11.28-20.24.31:772][351]LogBlueprint: Error: [Compiler AIBase] Could not find a function named "HitReactAnim" in 'ThirdPerson_AnimBP_C'.
+Make sure 'ThirdPerson_AnimBP_C' has been compiled for  Hit React Anim
+[2020.11.28-20.24.31:851][351]LogUObjectHash: Compacting FUObjectHashTables data took   3.90ms
+[2020.11.28-20.24.41:995][941]BlueprintLog: New page: Compile AIBase
+[2020.11.28-20.24.42:005][941]LogBlueprint: Error: [Compiler AIBase] In use pin  <Unnamed>  no longer exists on node  Hit React Anim . Please refresh node or break links to remove pin.
+[2020.11.28-20.24.42:005][941]LogBlueprint: Error: [Compiler AIBase] In use pin  Target  no longer exists on node  Hit React Anim . Please refresh node or break links to remove pin.
+[2020.11.28-20.24.42:005][941]LogBlueprint: Error: [Compiler AIBase] Could not find a function named "HitReactAnim" in 'ThirdPerson_AnimBP_C'.
+Make sure 'ThirdPerson_AnimBP_C' has been compiled for  Hit React Anim
+[2020.11.28-20.24.42:047][941]LogUObjectHash: Compacting FUObjectHashTables data took   3.32ms
+[2020.11.28-20.25.08:018][716]BlueprintLog: New page: Compile AIBase
+[2020.11.28-20.25.08:070][716]LogUObjectHash: Compacting FUObjectHashTables data took   3.44ms
+[2020.11.28-20.25.10:672][849]LogTemp: Repeating last play command: Selected Viewport
+[2020.11.28-20.25.10:688][849]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.28-20.25.10:689][849]PIE: New page: PIE session: Overview (Nov. 28, 2020, 10:25:10 a.m.)
+[2020.11.28-20.25.10:689][849]LogPlayLevel: Creating play world package: /Game/HorrorEngine/Maps/UEDPIE_0_Overview
+[2020.11.28-20.25.10:807][849]LogPlayLevel: PIE: StaticDuplicateObject took: (0.118184s)
+[2020.11.28-20.25.10:808][849]LogAIModule: Creating AISystem for world Overview
+[2020.11.28-20.25.10:808][849]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000017CE56B8A00), frame # 20849
+[2020.11.28-20.25.10:808][849]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000017C97F7FD80), frame # 20849
+[2020.11.28-20.25.10:808][849]LogPlayLevel: PIE: World Init took: (0.001066s)
+[2020.11.28-20.25.10:808][849]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/HorrorEngine/Maps/Overview.Overview to /Game/HorrorEngine/Maps/UEDPIE_0_Overview.Overview (0.119400s)
+[2020.11.28-20.25.10:833][849]LogUObjectHash: Compacting FUObjectHashTables data took   3.24ms
+[2020.11.28-20.25.10:835][849]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.11.28-20.25.10:835][849]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.11.28-20.25.10:835][849]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.11.28-20.25.10:835][849]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.11.28-20.25.10:835][849]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.11.28-20.25.10:835][849]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.11.28-20.25.10:835][849]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.11.28-20.25.10:835][849]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.11.28-20.25.10:835][849]LogAudio: Display: Using built-in audio occlusion.
+[2020.11.28-20.25.10:835][849]LogAudioMixer: Display: Initializing audio mixer.
+[2020.11.28-20.25.10:838][849]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.28-20.25.10:838][849]LogAudioMixer: Display: 1: FrontRight
+[2020.11.28-20.25.10:888][849]LogAudioMixer: Display: Using Audio Device Headset Earphone (Razer Kraken 7.1 V2)
+[2020.11.28-20.25.10:888][849]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.11.28-20.25.10:888][849]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.11.28-20.25.10:888][849]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.11.28-20.25.10:889][849]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.11.28-20.25.10:899][849]LogInit: FAudioDevice initialized.
+[2020.11.28-20.25.10:910][849]LogLoad: Game class is 'HorrorEngineGameMode_C'
+[2020.11.28-20.25.10:928][849]LogWorld: Bringing World /Game/HorrorEngine/Maps/UEDPIE_0_Overview.Overview up for play (max tick rate 0) at 2020.11.28-15.25.10
+[2020.11.28-20.25.10:931][849]LogWorld: Bringing up level for play took: 0.020576
+[2020.11.28-20.25.10:932][849]LogOnline: OSS: Creating online subsystem instance for: :Context_8
+[2020.11.28-20.25.10:933][849]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2020.11.28-20.25.10:967][849]PIE: Server logged in
+[2020.11.28-20.25.10:968][849]PIE: Play in editor total start time 0.281 seconds.
+[2020.11.28-20.25.12:678][941]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsWithTag_OutActors_1' of length 0 in '/Game/HorrorEngine/Blueprints/Core/HorrorEvents.HorrorEvents_C:ExecuteUbergraph_HorrorEvents'!
+[2020.11.28-20.25.12:678][941]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsWithTag_OutActors_1' of length 0 in '/Game/HorrorEngine/Blueprints/Core/HorrorEvents.HorrorEvents_C:ExecuteUbergraph_HorrorEvents'!
+[2020.11.28-20.25.14:359][ 32]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsWithTag_OutActors_1' of length 0 in '/Game/HorrorEngine/Blueprints/Core/HorrorEvents.HorrorEvents_C:ExecuteUbergraph_HorrorEvents'!
+[2020.11.28-20.25.14:360][ 32]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsWithTag_OutActors_1' of length 0 in '/Game/HorrorEngine/Blueprints/Core/HorrorEvents.HorrorEvents_C:ExecuteUbergraph_HorrorEvents'!
+[2020.11.28-20.25.14:514][ 38]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.28-20.25.14:514][ 38]LogWorld: BeginTearingDown for /Game/HorrorEngine/Maps/UEDPIE_0_Overview
+[2020.11.28-20.25.14:515][ 38]LogWorld: UWorld::CleanupWorld for Overview, bSessionEnded=true, bCleanupResources=true
+[2020.11.28-20.25.14:519][ 38]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.28-20.25.14:529][ 38]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.11.28-20.25.14:535][ 38]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.28-20.25.14:573][ 38]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.28-20.25.14:582][ 38]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000017C97F7FD80), frame # 21038
+[2020.11.28-20.25.14:582][ 38]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000017CE56B8A00), frame # 21038
+[2020.11.28-20.25.14:586][ 38]LogUObjectHash: Compacting FUObjectHashTables data took   3.53ms
+[2020.11.28-20.25.14:623][ 39]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2020.11.28-20.25.15:720][ 92]LogEditorViewport: Clicking on Actor (LMB): AIBase_C (AIBase)
+[2020.11.28-20.25.19:629][258]LogTemp: Repeating last play command: Selected Viewport
+[2020.11.28-20.25.19:659][258]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.28-20.25.19:659][258]PIE: New page: PIE session: Overview (Nov. 28, 2020, 10:25:19 a.m.)
+[2020.11.28-20.25.19:659][258]LogPlayLevel: Creating play world package: /Game/HorrorEngine/Maps/UEDPIE_0_Overview
+[2020.11.28-20.25.19:773][258]LogPlayLevel: PIE: StaticDuplicateObject took: (0.114060s)
+[2020.11.28-20.25.19:774][258]LogAIModule: Creating AISystem for world Overview
+[2020.11.28-20.25.19:774][258]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000017CB966C400), frame # 21258
+[2020.11.28-20.25.19:774][258]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000017CE5376200), frame # 21258
+[2020.11.28-20.25.19:775][258]LogPlayLevel: PIE: World Init took: (0.000964s)
+[2020.11.28-20.25.19:775][258]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/HorrorEngine/Maps/Overview.Overview to /Game/HorrorEngine/Maps/UEDPIE_0_Overview.Overview (0.115163s)
+[2020.11.28-20.25.19:798][258]LogUObjectHash: Compacting FUObjectHashTables data took   2.62ms
+[2020.11.28-20.25.19:800][258]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.11.28-20.25.19:800][258]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.11.28-20.25.19:800][258]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.11.28-20.25.19:800][258]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.11.28-20.25.19:800][258]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.11.28-20.25.19:800][258]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.11.28-20.25.19:800][258]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.11.28-20.25.19:800][258]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.11.28-20.25.19:800][258]LogAudio: Display: Using built-in audio occlusion.
+[2020.11.28-20.25.19:800][258]LogAudioMixer: Display: Initializing audio mixer.
+[2020.11.28-20.25.19:803][258]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.28-20.25.19:803][258]LogAudioMixer: Display: 1: FrontRight
+[2020.11.28-20.25.19:853][258]LogAudioMixer: Display: Using Audio Device Headset Earphone (Razer Kraken 7.1 V2)
+[2020.11.28-20.25.19:853][258]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.11.28-20.25.19:853][258]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.11.28-20.25.19:853][258]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.11.28-20.25.19:854][258]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.11.28-20.25.19:863][258]LogInit: FAudioDevice initialized.
+[2020.11.28-20.25.19:869][258]LogLoad: Game class is 'HorrorEngineGameMode_C'
+[2020.11.28-20.25.19:885][258]LogWorld: Bringing World /Game/HorrorEngine/Maps/UEDPIE_0_Overview.Overview up for play (max tick rate 0) at 2020.11.28-15.25.19
+[2020.11.28-20.25.19:888][258]LogWorld: Bringing up level for play took: 0.018637
+[2020.11.28-20.25.19:889][258]LogOnline: OSS: Creating online subsystem instance for: :Context_9
+[2020.11.28-20.25.19:890][258]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2020.11.28-20.25.19:924][258]PIE: Server logged in
+[2020.11.28-20.25.19:925][258]PIE: Play in editor total start time 0.28 seconds.
+[2020.11.28-20.25.21:543][343]LogRenderer: Reallocating scene render targets to support 2560x1440 Format 10 NumSamples 1 (Frame:85).
+[2020.11.28-20.25.21:659][345]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsWithTag_OutActors_1' of length 0 in '/Game/HorrorEngine/Blueprints/Core/HorrorEvents.HorrorEvents_C:ExecuteUbergraph_HorrorEvents'!
+[2020.11.28-20.25.21:659][345]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsWithTag_OutActors_1' of length 0 in '/Game/HorrorEngine/Blueprints/Core/HorrorEvents.HorrorEvents_C:ExecuteUbergraph_HorrorEvents'!
+[2020.11.28-20.25.22:190][368]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.28-20.25.22:190][368]LogWorld: BeginTearingDown for /Game/HorrorEngine/Maps/UEDPIE_0_Overview
+[2020.11.28-20.25.22:191][368]LogWorld: UWorld::CleanupWorld for Overview, bSessionEnded=true, bCleanupResources=true
+[2020.11.28-20.25.22:195][368]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.28-20.25.22:208][368]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.11.28-20.25.22:214][368]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.28-20.25.22:256][368]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.28-20.25.22:267][368]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000017CE5376200), frame # 21368
+[2020.11.28-20.25.22:267][368]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000017CB966C400), frame # 21368
+[2020.11.28-20.25.22:271][368]LogUObjectHash: Compacting FUObjectHashTables data took   3.24ms
+[2020.11.28-20.25.22:306][369]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2020.11.28-20.25.23:375][415]LogEditorViewport: Clicking on Actor (LMB): AIBase_C (AIBase)
+[2020.11.28-20.25.48:715][363]LogAssetEditorSubsystem: Opening Asset editor for SkeletalMesh /Game/Mannequin/Character/Mesh/SK_Mannequin.SK_Mannequin
+[2020.11.28-20.25.48:757][363]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2020.11.28-20.25.48:935][363]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.11.28-20.25.48:936][363]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0003 seconds. Added 1 classes and 0 folders.
+[2020.11.28-20.25.48:973][363]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_6:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.11.28-20.25.51:576][435]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/HorrorEngine/AIRevamp/Crouch.Crouch
+[2020.11.28-20.25.51:598][435]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.11.28-20.25.51:627][435]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.11.28-20.25.52:342][435]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2020.11.28-20.25.54:520][523]LogAssetEditorSubsystem: Opening Asset editor for PhysicsAsset /Game/Mannequin/Character/Mesh/SK_Mannequin_PhysicsAsset.SK_Mannequin_PhysicsAsset
+[2020.11.28-20.25.54:549][523]LogContentBrowser: Native class hierarchy updated for 'PhysicsAssetEditor' in 0.0004 seconds. Added 8 classes and 3 folders.
+[2020.11.28-20.25.54:555][523]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_11:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2020.11.28-20.26.00:705][726]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2020.11.28-20.26.00:705][726]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.28-20.26.01:948][769]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2020.11.28-20.26.01:948][769]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.28-20.26.02:800][794]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2020.11.28-20.26.02:800][794]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.28-20.26.09:597][ 58]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.11.28-20.26.20:008][464]BlueprintLog: New page: Compile AIBase
+[2020.11.28-20.26.20:266][464]LogUObjectHash: Compacting FUObjectHashTables data took   6.98ms
+[2020.11.28-20.26.25:724][634]BlueprintLog: New page: Compile AIBase
+[2020.11.28-20.26.25:852][634]LogUObjectHash: Compacting FUObjectHashTables data took   5.21ms
+[2020.11.28-20.26.28:176][723]LogTemp: Repeating last play command: Selected Viewport
+[2020.11.28-20.26.28:195][723]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.28-20.26.28:195][723]PIE: New page: PIE session: Overview (Nov. 28, 2020, 10:26:28 a.m.)
+[2020.11.28-20.26.28:195][723]LogPlayLevel: Creating play world package: /Game/HorrorEngine/Maps/UEDPIE_0_Overview
+[2020.11.28-20.26.28:309][723]LogPlayLevel: PIE: StaticDuplicateObject took: (0.113251s)
+[2020.11.28-20.26.28:309][723]LogAIModule: Creating AISystem for world Overview
+[2020.11.28-20.26.28:310][723]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000017CB6DA0400), frame # 23723
+[2020.11.28-20.26.28:310][723]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000017CCE39D440), frame # 23723
+[2020.11.28-20.26.28:310][723]LogPlayLevel: PIE: World Init took: (0.000987s)
+[2020.11.28-20.26.28:310][723]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/HorrorEngine/Maps/Overview.Overview to /Game/HorrorEngine/Maps/UEDPIE_0_Overview.Overview (0.114380s)
+[2020.11.28-20.26.28:338][723]LogUObjectHash: Compacting FUObjectHashTables data took   4.88ms
+[2020.11.28-20.26.28:341][723]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.11.28-20.26.28:341][723]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.11.28-20.26.28:341][723]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.11.28-20.26.28:341][723]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.11.28-20.26.28:341][723]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.11.28-20.26.28:341][723]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.11.28-20.26.28:341][723]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.11.28-20.26.28:341][723]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.11.28-20.26.28:341][723]LogAudio: Display: Using built-in audio occlusion.
+[2020.11.28-20.26.28:341][723]LogAudioMixer: Display: Initializing audio mixer.
+[2020.11.28-20.26.28:344][723]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.28-20.26.28:344][723]LogAudioMixer: Display: 1: FrontRight
+[2020.11.28-20.26.28:394][723]LogAudioMixer: Display: Using Audio Device Headset Earphone (Razer Kraken 7.1 V2)
+[2020.11.28-20.26.28:395][723]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.11.28-20.26.28:395][723]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.11.28-20.26.28:395][723]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.11.28-20.26.28:395][723]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.11.28-20.26.28:405][723]LogInit: FAudioDevice initialized.
+[2020.11.28-20.26.28:413][723]LogLoad: Game class is 'HorrorEngineGameMode_C'
+[2020.11.28-20.26.28:445][723]LogWorld: Bringing World /Game/HorrorEngine/Maps/UEDPIE_0_Overview.Overview up for play (max tick rate 0) at 2020.11.28-15.26.28
+[2020.11.28-20.26.28:448][723]LogWorld: Bringing up level for play took: 0.034397
+[2020.11.28-20.26.28:448][723]LogOnline: OSS: Creating online subsystem instance for: :Context_19
+[2020.11.28-20.26.28:450][723]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2020.11.28-20.26.28:488][723]PIE: Server logged in
+[2020.11.28-20.26.28:489][723]PIE: Play in editor total start time 0.295 seconds.
+[2020.11.28-20.26.30:172][809]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsWithTag_OutActors_1' of length 0 in '/Game/HorrorEngine/Blueprints/Core/HorrorEvents.HorrorEvents_C:ExecuteUbergraph_HorrorEvents'!
+[2020.11.28-20.26.30:172][809]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsWithTag_OutActors_1' of length 0 in '/Game/HorrorEngine/Blueprints/Core/HorrorEvents.HorrorEvents_C:ExecuteUbergraph_HorrorEvents'!
+[2020.11.28-20.26.30:903][839]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.28-20.26.30:903][839]LogWorld: BeginTearingDown for /Game/HorrorEngine/Maps/UEDPIE_0_Overview
+[2020.11.28-20.26.30:904][839]LogWorld: UWorld::CleanupWorld for Overview, bSessionEnded=true, bCleanupResources=true
+[2020.11.28-20.26.30:908][839]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.28-20.26.30:921][839]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.11.28-20.26.30:927][839]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.28-20.26.30:949][839]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.28-20.26.30:972][839]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000017CCE39D440), frame # 23839
+[2020.11.28-20.26.30:972][839]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000017CB6DA0400), frame # 23839
+[2020.11.28-20.26.30:978][839]LogUObjectHash: Compacting FUObjectHashTables data took   4.11ms
+[2020.11.28-20.26.31:013][840]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2020.11.28-20.26.32:663][916]LogEditorViewport: Clicking on Actor (LMB): VHS_C (VHS2)
+[2020.11.28-20.26.34:943][ 18]LogEditorViewport: Clicking on Actor (LMB): AIBase_C (AIBase)
+[2020.11.28-20.26.42:923][367]LogTemp: Repeating last play command: Selected Viewport
+[2020.11.28-20.26.42:940][367]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.28-20.26.42:940][367]PIE: New page: PIE session: Overview (Nov. 28, 2020, 10:26:42 a.m.)
+[2020.11.28-20.26.42:940][367]LogPlayLevel: Creating play world package: /Game/HorrorEngine/Maps/UEDPIE_0_Overview
+[2020.11.28-20.26.43:054][367]LogPlayLevel: PIE: StaticDuplicateObject took: (0.113836s)
+[2020.11.28-20.26.43:055][367]LogAIModule: Creating AISystem for world Overview
+[2020.11.28-20.26.43:055][367]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000017CD38C3E00), frame # 24367
+[2020.11.28-20.26.43:055][367]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000017CD7108CC0), frame # 24367
+[2020.11.28-20.26.43:055][367]LogPlayLevel: PIE: World Init took: (0.000971s)
+[2020.11.28-20.26.43:055][367]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/HorrorEngine/Maps/Overview.Overview to /Game/HorrorEngine/Maps/UEDPIE_0_Overview.Overview (0.114946s)
+[2020.11.28-20.26.43:081][367]LogUObjectHash: Compacting FUObjectHashTables data took   3.94ms
+[2020.11.28-20.26.43:085][367]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.11.28-20.26.43:085][367]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.11.28-20.26.43:085][367]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.11.28-20.26.43:086][367]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.11.28-20.26.43:086][367]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.11.28-20.26.43:086][367]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.11.28-20.26.43:086][367]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.11.28-20.26.43:086][367]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.11.28-20.26.43:086][367]LogAudio: Display: Using built-in audio occlusion.
+[2020.11.28-20.26.43:086][367]LogAudioMixer: Display: Initializing audio mixer.
+[2020.11.28-20.26.43:089][367]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.28-20.26.43:089][367]LogAudioMixer: Display: 1: FrontRight
+[2020.11.28-20.26.43:138][367]LogAudioMixer: Display: Using Audio Device Headset Earphone (Razer Kraken 7.1 V2)
+[2020.11.28-20.26.43:138][367]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.11.28-20.26.43:138][367]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.11.28-20.26.43:139][367]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.11.28-20.26.43:139][367]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.11.28-20.26.43:149][367]LogInit: FAudioDevice initialized.
+[2020.11.28-20.26.43:157][367]LogLoad: Game class is 'HorrorEngineGameMode_C'
+[2020.11.28-20.26.43:188][367]LogWorld: Bringing World /Game/HorrorEngine/Maps/UEDPIE_0_Overview.Overview up for play (max tick rate 0) at 2020.11.28-15.26.43
+[2020.11.28-20.26.43:192][367]LogWorld: Bringing up level for play took: 0.033169
+[2020.11.28-20.26.43:192][367]LogOnline: OSS: Creating online subsystem instance for: :Context_20
+[2020.11.28-20.26.43:193][367]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2020.11.28-20.26.43:228][367]PIE: Server logged in
+[2020.11.28-20.26.43:229][367]PIE: Play in editor total start time 0.29 seconds.
+[2020.11.28-20.26.44:961][451]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsWithTag_OutActors_1' of length 0 in '/Game/HorrorEngine/Blueprints/Core/HorrorEvents.HorrorEvents_C:ExecuteUbergraph_HorrorEvents'!
+[2020.11.28-20.26.44:961][451]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsWithTag_OutActors_1' of length 0 in '/Game/HorrorEngine/Blueprints/Core/HorrorEvents.HorrorEvents_C:ExecuteUbergraph_HorrorEvents'!
+[2020.11.28-20.26.46:562][538]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsWithTag_OutActors_1' of length 0 in '/Game/HorrorEngine/Blueprints/Core/HorrorEvents.HorrorEvents_C:ExecuteUbergraph_HorrorEvents'!
+[2020.11.28-20.26.46:562][538]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsWithTag_OutActors_1' of length 0 in '/Game/HorrorEngine/Blueprints/Core/HorrorEvents.HorrorEvents_C:ExecuteUbergraph_HorrorEvents'!
+[2020.11.28-20.26.48:099][622]Cmd: LevelEditor.ToggleImmersive
+[2020.11.28-20.26.48:486][624]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsWithTag_OutActors_1' of length 0 in '/Game/HorrorEngine/Blueprints/Core/HorrorEvents.HorrorEvents_C:ExecuteUbergraph_HorrorEvents'!
+[2020.11.28-20.26.48:487][624]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsWithTag_OutActors_1' of length 0 in '/Game/HorrorEngine/Blueprints/Core/HorrorEvents.HorrorEvents_C:ExecuteUbergraph_HorrorEvents'!
+[2020.11.28-20.26.52:351][803]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsWithTag_OutActors_1' of length 0 in '/Game/HorrorEngine/Blueprints/Core/HorrorEvents.HorrorEvents_C:ExecuteUbergraph_HorrorEvents'!
+[2020.11.28-20.26.52:351][803]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsWithTag_OutActors_1' of length 0 in '/Game/HorrorEngine/Blueprints/Core/HorrorEvents.HorrorEvents_C:ExecuteUbergraph_HorrorEvents'!
+[2020.11.28-20.27.22:888][259]Cmd: LevelEditor.ToggleImmersive
+[2020.11.28-20.27.23:838][301]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.28-20.27.23:838][301]LogWorld: BeginTearingDown for /Game/HorrorEngine/Maps/UEDPIE_0_Overview
+[2020.11.28-20.27.23:839][301]LogWorld: UWorld::CleanupWorld for Overview, bSessionEnded=true, bCleanupResources=true
+[2020.11.28-20.27.23:843][301]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.28-20.27.23:852][301]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.11.28-20.27.23:859][301]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.28-20.27.23:899][301]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.28-20.27.23:904][301]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000017CD7108CC0), frame # 26301
+[2020.11.28-20.27.23:904][301]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000017CD38C3E00), frame # 26301
+[2020.11.28-20.27.23:911][301]LogUObjectHash: Compacting FUObjectHashTables data took   4.53ms
+[2020.11.28-20.27.23:943][302]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2020.11.28-20.27.36:941][934]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x303)
+[2020.11.28-20.27.39:328][ 45]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x354)
+[2020.11.28-20.27.53:316][719]Cmd: DELETE
+[2020.11.28-20.27.53:316][719]Cmd: ACTOR DELETE
+[2020.11.28-20.27.53:344][719]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.11.28-20.27.53:370][719]LogUObjectHash: Compacting FUObjectHashTables data took   3.74ms
+[2020.11.28-20.27.53:375][719]LogEditorActor: Deleted 1 Actors (0.058 secs)
+[2020.11.28-20.27.54:760][799]Cmd: TRANSACTION UNDO
+[2020.11.28-20.27.54:760][799]LogEditorTransaction: Undo Delete Actors
+[2020.11.28-20.27.54:992][799]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_6:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.11.28-20.27.54:994][799]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.11.28-20.27.54:996][799]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_11:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2020.11.28-20.27.55:857][838]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x303)
+[2020.11.28-20.27.56:422][866]Cmd: DELETE
+[2020.11.28-20.27.56:422][866]Cmd: ACTOR DELETE
+[2020.11.28-20.27.56:449][866]LogEditorActor: Deleted Actor: StaticMeshActor
+[2020.11.28-20.27.56:474][866]LogUObjectHash: Compacting FUObjectHashTables data took   3.00ms
+[2020.11.28-20.27.56:476][866]LogEditorActor: Deleted 1 Actors (0.054 secs)
+[2020.11.28-20.27.57:019][896]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x359)
+[2020.11.28-20.28.03:761][225]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_Door_400x359)
+[2020.11.28-20.28.11:834][624]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x304)
+[2020.11.28-20.28.15:559][800]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x361)
+[2020.11.28-20.28.17:132][875]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x304)
+[2020.11.28-20.28.22:510][149]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2020.11.28-20.28.22:929][165]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x361)
+[2020.11.28-20.29.08:361][715]LogMetaData: Removing '/Game/HorrorEngine/AI/Leafs/Walk.Walk_C' ref from Metadata '/Game/HorrorEngine/AIRevamp/Leafs/Walk.PackageMetaData'
+[2020.11.28-20.29.08:361][715]LogMetaData: Removing '/Game/HorrorEngine/AI/Leafs/Walk.SKEL_Walk_C' ref from Metadata '/Game/HorrorEngine/AIRevamp/Leafs/Walk.PackageMetaData'
+[2020.11.28-20.29.08:361][715]LogMetaData: Removing '/Game/HorrorEngine/AI/Leafs/Walk.Walk_C:ReceiveExecuteAI' ref from Metadata '/Game/HorrorEngine/AIRevamp/Leafs/Walk.PackageMetaData'
+[2020.11.28-20.29.08:361][715]LogMetaData: Removing '/Game/HorrorEngine/AI/Leafs/Walk.SKEL_Walk_C:ReceiveExecuteAI' ref from Metadata '/Game/HorrorEngine/AIRevamp/Leafs/Walk.PackageMetaData'
+[2020.11.28-20.29.08:387][715]LogMetaData: Removing '/Game/HorrorEngine/AI/Leafs/Run.Run_C' ref from Metadata '/Game/HorrorEngine/AIRevamp/Leafs/Run.PackageMetaData'
+[2020.11.28-20.29.08:387][715]LogMetaData: Removing '/Game/HorrorEngine/AI/Leafs/Run.SKEL_Run_C' ref from Metadata '/Game/HorrorEngine/AIRevamp/Leafs/Run.PackageMetaData'
+[2020.11.28-20.29.08:387][715]LogMetaData: Removing '/Game/HorrorEngine/AI/Leafs/Run.Run_C:ReceiveExecuteAI' ref from Metadata '/Game/HorrorEngine/AIRevamp/Leafs/Run.PackageMetaData'
+[2020.11.28-20.29.08:387][715]LogMetaData: Removing '/Game/HorrorEngine/AI/Leafs/Run.SKEL_Run_C:ReceiveExecuteAI' ref from Metadata '/Game/HorrorEngine/AIRevamp/Leafs/Run.PackageMetaData'
+[2020.11.28-20.29.08:413][715]LogMetaData: Removing '/Game/HorrorEngine/AI/Leafs/MoveToPlayer.MoveToPlayer_C' ref from Metadata '/Game/HorrorEngine/AIRevamp/Leafs/MoveToPlayer.PackageMetaData'
+[2020.11.28-20.29.08:413][715]LogMetaData: Removing '/Game/HorrorEngine/AI/Leafs/MoveToPlayer.SKEL_MoveToPlayer_C:ReceiveExecuteAI' ref from Metadata '/Game/HorrorEngine/AIRevamp/Leafs/MoveToPlayer.PackageMetaData'
+[2020.11.28-20.29.08:413][715]LogMetaData: Removing '/Game/HorrorEngine/AI/Leafs/MoveToPlayer.SKEL_MoveToPlayer_C' ref from Metadata '/Game/HorrorEngine/AIRevamp/Leafs/MoveToPlayer.PackageMetaData'
+[2020.11.28-20.29.08:413][715]LogMetaData: Removing '/Game/HorrorEngine/AI/Leafs/MoveToPlayer.MoveToPlayer_C:ReceiveExecuteAI' ref from Metadata '/Game/HorrorEngine/AIRevamp/Leafs/MoveToPlayer.PackageMetaData'
+[2020.11.28-20.29.08:413][715]LogMetaData: Removing '/Game/HorrorEngine/AI/Leafs/MoveToPlayer.MoveToPlayer_C:OnSuccess_3CD23FA04DB52A50A87DCFA7B2B2DC7E' ref from Metadata '/Game/HorrorEngine/AIRevamp/Leafs/MoveToPlayer.PackageMetaData'
+[2020.11.28-20.29.08:413][715]LogMetaData: Removing '/Game/HorrorEngine/AI/Leafs/MoveToPlayer.MoveToPlayer_C:OnFail_3CD23FA04DB52A50A87DCFA7B2B2DC7E' ref from Metadata '/Game/HorrorEngine/AIRevamp/Leafs/MoveToPlayer.PackageMetaData'
+[2020.11.28-20.29.08:438][715]LogMetaData: Removing '/Game/HorrorEngine/AI/Leafs/GoTo.GoTo_C' ref from Metadata '/Game/HorrorEngine/AIRevamp/Leafs/GoTo.PackageMetaData'
+[2020.11.28-20.29.08:438][715]LogMetaData: Removing '/Game/HorrorEngine/AI/Leafs/GoTo.SKEL_GoTo_C:ReceiveExecuteAI' ref from Metadata '/Game/HorrorEngine/AIRevamp/Leafs/GoTo.PackageMetaData'
+[2020.11.28-20.29.08:438][715]LogMetaData: Removing '/Game/HorrorEngine/AI/Leafs/GoTo.SKEL_GoTo_C' ref from Metadata '/Game/HorrorEngine/AIRevamp/Leafs/GoTo.PackageMetaData'
+[2020.11.28-20.29.08:438][715]LogMetaData: Removing '/Game/HorrorEngine/AI/Leafs/GoTo.GoTo_C:ReceiveExecuteAI' ref from Metadata '/Game/HorrorEngine/AIRevamp/Leafs/GoTo.PackageMetaData'
+[2020.11.28-20.29.08:438][715]LogMetaData: Removing '/Game/HorrorEngine/AI/Leafs/GoTo.GoTo_C:OnSuccess_CDDEA9D645866AF7C504D5A203C483B0' ref from Metadata '/Game/HorrorEngine/AIRevamp/Leafs/GoTo.PackageMetaData'
+[2020.11.28-20.29.08:438][715]LogMetaData: Removing '/Game/HorrorEngine/AI/Leafs/GoTo.GoTo_C:OnFail_CDDEA9D645866AF7C504D5A203C483B0' ref from Metadata '/Game/HorrorEngine/AIRevamp/Leafs/GoTo.PackageMetaData'
+[2020.11.28-20.29.08:462][715]LogMetaData: Removing '/Game/HorrorEngine/AI/Leafs/GetRandomLocation.GetRandomLocation_C' ref from Metadata '/Game/HorrorEngine/AIRevamp/Leafs/GetRandomLocation.PackageMetaData'
+[2020.11.28-20.29.08:462][715]LogMetaData: Removing '/Game/HorrorEngine/AI/Leafs/GetRandomLocation.SKEL_GetRandomLocation_C:ReceiveExecuteAI' ref from Metadata '/Game/HorrorEngine/AIRevamp/Leafs/GetRandomLocation.PackageMetaData'
+[2020.11.28-20.29.08:462][715]LogMetaData: Removing '/Game/HorrorEngine/AI/Leafs/GetRandomLocation.SKEL_GetRandomLocation_C' ref from Metadata '/Game/HorrorEngine/AIRevamp/Leafs/GetRandomLocation.PackageMetaData'
+[2020.11.28-20.29.08:462][715]LogMetaData: Removing '/Game/HorrorEngine/AI/Leafs/GetRandomLocation.GetRandomLocation_C:ReceiveExecuteAI' ref from Metadata '/Game/HorrorEngine/AIRevamp/Leafs/GetRandomLocation.PackageMetaData'
+[2020.11.28-20.29.08:485][715]LogMetaData: Removing '/Game/HorrorEngine/AI/Leafs/GetNextTargetLocation.GetNextTargetLocation_C' ref from Metadata '/Game/HorrorEngine/AIRevamp/Leafs/GetNextTargetLocation.PackageMetaData'
+[2020.11.28-20.29.08:485][715]LogMetaData: Removing '/Game/HorrorEngine/AI/Leafs/GetNextTargetLocation.SKEL_GetNextTargetLocation_C:ReceiveExecuteAI' ref from Metadata '/Game/HorrorEngine/AIRevamp/Leafs/GetNextTargetLocation.PackageMetaData'
+[2020.11.28-20.29.08:485][715]LogMetaData: Removing '/Game/HorrorEngine/AI/Leafs/GetNextTargetLocation.SKEL_GetNextTargetLocation_C' ref from Metadata '/Game/HorrorEngine/AIRevamp/Leafs/GetNextTargetLocation.PackageMetaData'
+[2020.11.28-20.29.08:486][715]LogMetaData: Removing '/Game/HorrorEngine/AI/Leafs/GetNextTargetLocation.GetNextTargetLocation_C:ReceiveExecuteAI' ref from Metadata '/Game/HorrorEngine/AIRevamp/Leafs/GetNextTargetLocation.PackageMetaData'
+[2020.11.28-20.29.08:509][715]LogMetaData: Removing '/Game/HorrorEngine/AI/Base_BT.Base_BT:Behavior Tree.BehaviorTreeGraphNode_Root_0' ref from Metadata '/Game/HorrorEngine/AIRevamp/Base_BT.PackageMetaData'
+[2020.11.28-20.29.08:559][715]LogMetaData: Removing '/Game/HorrorEngine/AI/Enums/Temperment.Temperment' ref from Metadata '/Game/HorrorEngine/AIRevamp/Enums/Temperment.PackageMetaData'
+[2020.11.28-20.29.08:582][715]LogMetaData: Removing '/Game/HorrorEngine/AI/Enums/Direction.Direction' ref from Metadata '/Game/HorrorEngine/AIRevamp/Enums/Direction.PackageMetaData'
+[2020.11.28-20.29.08:627][715]LogMetaData: Removing '/Game/HorrorEngine/AI/AIBase.AIBase_C' ref from Metadata '/Game/HorrorEngine/AIRevamp/AIBase.PackageMetaData'
+[2020.11.28-20.29.08:627][715]LogMetaData: Removing '/Game/HorrorEngine/AI/AIBase.AIBase:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/HorrorEngine/AIRevamp/AIBase.PackageMetaData'
+[2020.11.28-20.29.08:627][715]LogMetaData: Removing '/Game/HorrorEngine/AI/AIBase.SKEL_AIBase_C' ref from Metadata '/Game/HorrorEngine/AIRevamp/AIBase.PackageMetaData'
+[2020.11.28-20.29.08:627][715]LogMetaData: Removing '/Game/HorrorEngine/AI/AIBase.SKEL_AIBase_C:Run' ref from Metadata '/Game/HorrorEngine/AIRevamp/AIBase.PackageMetaData'
+[2020.11.28-20.29.08:627][715]LogMetaData: Removing '/Game/HorrorEngine/AI/AIBase.SKEL_AIBase_C:Walk' ref from Metadata '/Game/HorrorEngine/AIRevamp/AIBase.PackageMetaData'
+[2020.11.28-20.29.08:627][715]LogMetaData: Removing '/Game/HorrorEngine/AI/AIBase.SKEL_AIBase_C:Damage' ref from Metadata '/Game/HorrorEngine/AIRevamp/AIBase.PackageMetaData'
+[2020.11.28-20.29.08:627][715]LogMetaData: Removing '/Game/HorrorEngine/AI/AIBase.SKEL_AIBase_C:React' ref from Metadata '/Game/HorrorEngine/AIRevamp/AIBase.PackageMetaData'
+[2020.11.28-20.29.08:627][715]LogMetaData: Removing '/Game/HorrorEngine/AI/AIBase.SKEL_AIBase_C:BndEvt__ChestHitbox_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature' ref from Metadata '/Game/HorrorEngine/AIRevamp/AIBase.PackageMetaData'
+[2020.11.28-20.29.08:628][715]LogMetaData: Removing '/Game/HorrorEngine/AI/AIBase.SKEL_AIBase_C:CheckHealth' ref from Metadata '/Game/HorrorEngine/AIRevamp/AIBase.PackageMetaData'
+[2020.11.28-20.29.08:628][715]LogMetaData: Removing '/Game/HorrorEngine/AI/AIBase.SKEL_AIBase_C:No health' ref from Metadata '/Game/HorrorEngine/AIRevamp/AIBase.PackageMetaData'
+[2020.11.28-20.29.08:628][715]LogMetaData: Removing '/Game/HorrorEngine/AI/AIBase.SKEL_AIBase_C:ReceiveBeginPlay' ref from Metadata '/Game/HorrorEngine/AIRevamp/AIBase.PackageMetaData'
+[2020.11.28-20.29.08:628][715]LogMetaData: Removing '/Game/HorrorEngine/AI/AIBase.SKEL_AIBase_C:Stunned' ref from Metadata '/Game/HorrorEngine/AIRevamp/AIBase.PackageMetaData'
+[2020.11.28-20.29.08:628][715]LogMetaData: Removing '/Game/HorrorEngine/AI/AIBase.SKEL_AIBase_C:BndEvt__HeadHitbox_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature' ref from Metadata '/Game/HorrorEngine/AIRevamp/AIBase.PackageMetaData'
+[2020.11.28-20.29.08:628][715]LogMetaData: Removing '/Game/HorrorEngine/AI/AIBase.SKEL_AIBase_C:UserConstructionScript' ref from Metadata '/Game/HorrorEngine/AIRevamp/AIBase.PackageMetaData'
+[2020.11.28-20.29.08:628][715]LogMetaData: Removing '/Game/HorrorEngine/AI/AIBase.AIBase_C:ReceiveBeginPlay' ref from Metadata '/Game/HorrorEngine/AIRevamp/AIBase.PackageMetaData'
+[2020.11.28-20.29.08:628][715]LogMetaData: Removing '/Game/HorrorEngine/AI/AIBase.AIBase_C:UserConstructionScript' ref from Metadata '/Game/HorrorEngine/AIRevamp/AIBase.PackageMetaData'
+[2020.11.28-20.29.08:628][715]LogMetaData: Removing '/Game/HorrorEngine/AI/AIBase.AIBase_C:Damage' ref from Metadata '/Game/HorrorEngine/AIRevamp/AIBase.PackageMetaData'
+[2020.11.28-20.29.08:649][715]LogMetaData: Removing '/Game/HorrorEngine/AI/Base_AI.Base_AI_C' ref from Metadata '/Game/HorrorEngine/AIRevamp/Base_AI.PackageMetaData'
+[2020.11.28-20.29.08:649][715]LogMetaData: Removing '/Game/HorrorEngine/AI/Base_AI.Base_AI:EventGraph.K2Node_Event_0' ref from Metadata '/Game/HorrorEngine/AIRevamp/Base_AI.PackageMetaData'
+[2020.11.28-20.29.08:649][715]LogMetaData: Removing '/Game/HorrorEngine/AI/Base_AI.Base_AI:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/HorrorEngine/AIRevamp/Base_AI.PackageMetaData'
+[2020.11.28-20.29.08:649][715]LogMetaData: Removing '/Game/HorrorEngine/AI/Base_AI.SKEL_Base_AI_C' ref from Metadata '/Game/HorrorEngine/AIRevamp/Base_AI.PackageMetaData'
+[2020.11.28-20.29.08:649][715]LogMetaData: Removing '/Game/HorrorEngine/AI/Base_AI.Base_AI_C:ReceiveBeginPlay' ref from Metadata '/Game/HorrorEngine/AIRevamp/Base_AI.PackageMetaData'
+[2020.11.28-20.29.08:649][715]LogMetaData: Removing '/Game/HorrorEngine/AI/Base_AI.SKEL_Base_AI_C:ReceiveBeginPlay' ref from Metadata '/Game/HorrorEngine/AIRevamp/Base_AI.PackageMetaData'
+[2020.11.28-20.29.08:649][715]LogMetaData: Removing '/Game/HorrorEngine/AI/Base_AI.SKEL_Base_AI_C:BndEvt__AIPerception_K2Node_ComponentBoundEvent_0_ActorPerceptionUpdatedDelegate__DelegateSignature' ref from Metadata '/Game/HorrorEngine/AIRevamp/Base_AI.PackageMetaData'
+[2020.11.28-20.29.08:649][715]LogMetaData: Removing '/Game/HorrorEngine/AI/Base_AI.SKEL_Base_AI_C:GetNextPoint' ref from Metadata '/Game/HorrorEngine/AIRevamp/Base_AI.PackageMetaData'
+[2020.11.28-20.29.08:649][715]LogMetaData: Removing '/Game/HorrorEngine/AI/Base_AI.SKEL_Base_AI_C:UserConstructionScript' ref from Metadata '/Game/HorrorEngine/AIRevamp/Base_AI.PackageMetaData'
+[2020.11.28-20.29.08:695][715]LogMetaData: Removing '/Game/HorrorEngine/AI/PatrolPath.PatrolPath_C' ref from Metadata '/Game/HorrorEngine/AIRevamp/PatrolPath.PackageMetaData'
+[2020.11.28-20.29.08:695][715]LogMetaData: Removing '/Game/HorrorEngine/AI/PatrolPath.PatrolPath:EventGraph.K2Node_Event_0' ref from Metadata '/Game/HorrorEngine/AIRevamp/PatrolPath.PackageMetaData'
+[2020.11.28-20.29.08:695][715]LogMetaData: Removing '/Game/HorrorEngine/AI/PatrolPath.PatrolPath:EventGraph.K2Node_Event_1' ref from Metadata '/Game/HorrorEngine/AIRevamp/PatrolPath.PackageMetaData'
+[2020.11.28-20.29.08:695][715]LogMetaData: Removing '/Game/HorrorEngine/AI/PatrolPath.PatrolPath:EventGraph.K2Node_Event_2' ref from Metadata '/Game/HorrorEngine/AIRevamp/PatrolPath.PackageMetaData'
+[2020.11.28-20.29.08:695][715]LogMetaData: Removing '/Game/HorrorEngine/AI/PatrolPath.PatrolPath:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/HorrorEngine/AIRevamp/PatrolPath.PackageMetaData'
+[2020.11.28-20.29.08:695][715]LogMetaData: Removing '/Game/HorrorEngine/AI/PatrolPath.SKEL_PatrolPath_C:ReceiveBeginPlay' ref from Metadata '/Game/HorrorEngine/AIRevamp/PatrolPath.PackageMetaData'
+[2020.11.28-20.29.08:695][715]LogMetaData: Removing '/Game/HorrorEngine/AI/PatrolPath.SKEL_PatrolPath_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/HorrorEngine/AIRevamp/PatrolPath.PackageMetaData'
+[2020.11.28-20.29.08:695][715]LogMetaData: Removing '/Game/HorrorEngine/AI/PatrolPath.SKEL_PatrolPath_C:ReceiveTick' ref from Metadata '/Game/HorrorEngine/AIRevamp/PatrolPath.PackageMetaData'
+[2020.11.28-20.29.08:695][715]LogMetaData: Removing '/Game/HorrorEngine/AI/PatrolPath.SKEL_PatrolPath_C:UserConstructionScript' ref from Metadata '/Game/HorrorEngine/AIRevamp/PatrolPath.PackageMetaData'
+[2020.11.28-20.29.08:695][715]LogMetaData: Removing '/Game/HorrorEngine/AI/PatrolPath.SKEL_PatrolPath_C' ref from Metadata '/Game/HorrorEngine/AIRevamp/PatrolPath.PackageMetaData'
+[2020.11.28-20.29.08:764][715]LogMetaData: Removing '/Game/HorrorEngine/AI/HitTest.HitTest_C' ref from Metadata '/Game/HorrorEngine/AIRevamp/HitTest.PackageMetaData'
+[2020.11.28-20.29.08:764][715]LogMetaData: Removing '/Game/HorrorEngine/AI/HitTest.HitTest:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/HorrorEngine/AIRevamp/HitTest.PackageMetaData'
+[2020.11.28-20.29.08:764][715]LogMetaData: Removing '/Game/HorrorEngine/AI/HitTest.HitTest:EventGraph.K2Node_Event_0' ref from Metadata '/Game/HorrorEngine/AIRevamp/HitTest.PackageMetaData'
+[2020.11.28-20.29.08:764][715]LogMetaData: Removing '/Game/HorrorEngine/AI/HitTest.HitTest:EventGraph.K2Node_CallParentFunction_0' ref from Metadata '/Game/HorrorEngine/AIRevamp/HitTest.PackageMetaData'
+[2020.11.28-20.29.08:764][715]LogMetaData: Removing '/Game/HorrorEngine/AI/HitTest.HitTest:EventGraph.K2Node_Event_1' ref from Metadata '/Game/HorrorEngine/AIRevamp/HitTest.PackageMetaData'
+[2020.11.28-20.29.08:764][715]LogMetaData: Removing '/Game/HorrorEngine/AI/HitTest.HitTest:EventGraph.K2Node_Event_2' ref from Metadata '/Game/HorrorEngine/AIRevamp/HitTest.PackageMetaData'
+[2020.11.28-20.29.08:764][715]LogMetaData: Removing '/Game/HorrorEngine/AI/HitTest.SKEL_HitTest_C:ReceiveBeginPlay' ref from Metadata '/Game/HorrorEngine/AIRevamp/HitTest.PackageMetaData'
+[2020.11.28-20.29.08:764][715]LogMetaData: Removing '/Game/HorrorEngine/AI/HitTest.SKEL_HitTest_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/HorrorEngine/AIRevamp/HitTest.PackageMetaData'
+[2020.11.28-20.29.08:764][715]LogMetaData: Removing '/Game/HorrorEngine/AI/HitTest.SKEL_HitTest_C:ReceiveTick' ref from Metadata '/Game/HorrorEngine/AIRevamp/HitTest.PackageMetaData'
+[2020.11.28-20.29.08:764][715]LogMetaData: Removing '/Game/HorrorEngine/AI/HitTest.SKEL_HitTest_C:Damage' ref from Metadata '/Game/HorrorEngine/AIRevamp/HitTest.PackageMetaData'
+[2020.11.28-20.29.08:764][715]LogMetaData: Removing '/Game/HorrorEngine/AI/HitTest.SKEL_HitTest_C:UserConstructionScript' ref from Metadata '/Game/HorrorEngine/AIRevamp/HitTest.PackageMetaData'
+[2020.11.28-20.29.08:764][715]LogMetaData: Removing '/Game/HorrorEngine/AI/HitTest.SKEL_HitTest_C' ref from Metadata '/Game/HorrorEngine/AIRevamp/HitTest.PackageMetaData'
+[2020.11.28-20.29.08:764][715]LogMetaData: Removing '/Game/HorrorEngine/AI/HitTest.HitTest_C:Damage' ref from Metadata '/Game/HorrorEngine/AIRevamp/HitTest.PackageMetaData'
+[2020.11.28-20.29.08:830][715]LogMetaData: Removing '/Game/HorrorEngine/AI/AI_HP.AI_HP_C' ref from Metadata '/Game/HorrorEngine/AIRevamp/AI_HP.PackageMetaData'
+[2020.11.28-20.29.08:830][715]LogMetaData: Removing '/Game/HorrorEngine/AI/AI_HP.AI_HP:EventGraph.K2Node_Event_0' ref from Metadata '/Game/HorrorEngine/AIRevamp/AI_HP.PackageMetaData'
+[2020.11.28-20.29.08:830][715]LogMetaData: Removing '/Game/HorrorEngine/AI/AI_HP.AI_HP:EventGraph.K2Node_Event_1' ref from Metadata '/Game/HorrorEngine/AIRevamp/AI_HP.PackageMetaData'
+[2020.11.28-20.29.08:830][715]LogMetaData: Removing '/Game/HorrorEngine/AI/AI_HP.AI_HP:EventGraph.K2Node_Event_2' ref from Metadata '/Game/HorrorEngine/AIRevamp/AI_HP.PackageMetaData'
+[2020.11.28-20.29.08:830][715]LogMetaData: Removing '/Game/HorrorEngine/AI/AI_HP.AI_HP:GetPercent_0.K2Node_FunctionEntry_0' ref from Metadata '/Game/HorrorEngine/AIRevamp/AI_HP.PackageMetaData'
+[2020.11.28-20.29.08:830][715]LogMetaData: Removing '/Game/HorrorEngine/AI/AI_HP.AI_HP:GetPercent_0.K2Node_FunctionResult_0' ref from Metadata '/Game/HorrorEngine/AIRevamp/AI_HP.PackageMetaData'
+[2020.11.28-20.29.08:830][715]LogMetaData: Removing '/Game/HorrorEngine/AI/AI_HP.SKEL_AI_HP_C:PreConstruct' ref from Metadata '/Game/HorrorEngine/AIRevamp/AI_HP.PackageMetaData'
+[2020.11.28-20.29.08:830][715]LogMetaData: Removing '/Game/HorrorEngine/AI/AI_HP.SKEL_AI_HP_C:Construct' ref from Metadata '/Game/HorrorEngine/AIRevamp/AI_HP.PackageMetaData'
+[2020.11.28-20.29.08:830][715]LogMetaData: Removing '/Game/HorrorEngine/AI/AI_HP.SKEL_AI_HP_C:Tick' ref from Metadata '/Game/HorrorEngine/AIRevamp/AI_HP.PackageMetaData'
+[2020.11.28-20.29.08:830][715]LogMetaData: Removing '/Game/HorrorEngine/AI/AI_HP.SKEL_AI_HP_C:GetPercent_0' ref from Metadata '/Game/HorrorEngine/AIRevamp/AI_HP.PackageMetaData'
+[2020.11.28-20.29.08:830][715]LogMetaData: Removing '/Game/HorrorEngine/AI/AI_HP.SKEL_AI_HP_C' ref from Metadata '/Game/HorrorEngine/AIRevamp/AI_HP.PackageMetaData'
+[2020.11.28-20.29.08:830][715]LogMetaData: Removing '/Game/HorrorEngine/AI/AI_HP.AI_HP_C:GetPercent_0' ref from Metadata '/Game/HorrorEngine/AIRevamp/AI_HP.PackageMetaData'
+[2020.11.28-20.29.08:852][715]LogMetaData: Removing '/Game/HorrorEngine/AI/MoveToFast_New.MoveToFast_New_C' ref from Metadata '/Game/HorrorEngine/AIRevamp/MoveToFast_New.PackageMetaData'
+[2020.11.28-20.29.08:852][715]LogMetaData: Removing '/Game/HorrorEngine/AI/MoveToFast_New.SKEL_MoveToFast_New_C' ref from Metadata '/Game/HorrorEngine/AIRevamp/MoveToFast_New.PackageMetaData'
+[2020.11.28-20.29.08:878][715]LogMetaData: Removing '/Game/HorrorEngine/AI/Leafs/ChasePlayer.ChasePlayer_C' ref from Metadata '/Game/HorrorEngine/AIRevamp/Leafs/ChasePlayer.PackageMetaData'
+[2020.11.28-20.29.08:878][715]LogMetaData: Removing '/Game/HorrorEngine/AI/Leafs/ChasePlayer.SKEL_ChasePlayer_C:ReceiveExecuteAI' ref from Metadata '/Game/HorrorEngine/AIRevamp/Leafs/ChasePlayer.PackageMetaData'
+[2020.11.28-20.29.08:878][715]LogMetaData: Removing '/Game/HorrorEngine/AI/Leafs/ChasePlayer.SKEL_ChasePlayer_C' ref from Metadata '/Game/HorrorEngine/AIRevamp/Leafs/ChasePlayer.PackageMetaData'
+[2020.11.28-20.29.08:878][715]LogMetaData: Removing '/Game/HorrorEngine/AI/Leafs/ChasePlayer.ChasePlayer_C:ReceiveExecuteAI' ref from Metadata '/Game/HorrorEngine/AIRevamp/Leafs/ChasePlayer.PackageMetaData'
+[2020.11.28-20.29.08:901][715]LogMetaData: Removing '/Game/HorrorEngine/AI/Leafs/DencrementPointIndex.DencrementPointIndex_C' ref from Metadata '/Game/HorrorEngine/AIRevamp/Leafs/DencrementPointIndex.PackageMetaData'
+[2020.11.28-20.29.08:902][715]LogMetaData: Removing '/Game/HorrorEngine/AI/Leafs/DencrementPointIndex.SKEL_DencrementPointIndex_C:ReceiveExecuteAI' ref from Metadata '/Game/HorrorEngine/AIRevamp/Leafs/DencrementPointIndex.PackageMetaData'
+[2020.11.28-20.29.08:902][715]LogMetaData: Removing '/Game/HorrorEngine/AI/Leafs/DencrementPointIndex.SKEL_DencrementPointIndex_C' ref from Metadata '/Game/HorrorEngine/AIRevamp/Leafs/DencrementPointIndex.PackageMetaData'
+[2020.11.28-20.29.08:902][715]LogMetaData: Removing '/Game/HorrorEngine/AI/Leafs/DencrementPointIndex.DencrementPointIndex_C:ReceiveExecuteAI' ref from Metadata '/Game/HorrorEngine/AIRevamp/Leafs/DencrementPointIndex.PackageMetaData'
+[2020.11.28-20.29.08:924][715]LogMetaData: Removing '/Game/HorrorEngine/AI/Leafs/FindPatrolPoint.FindPatrolPoint_C' ref from Metadata '/Game/HorrorEngine/AIRevamp/Leafs/FindPatrolPoint.PackageMetaData'
+[2020.11.28-20.29.08:924][715]LogMetaData: Removing '/Game/HorrorEngine/AI/Leafs/FindPatrolPoint.SKEL_FindPatrolPoint_C:ReceiveExecuteAI' ref from Metadata '/Game/HorrorEngine/AIRevamp/Leafs/FindPatrolPoint.PackageMetaData'
+[2020.11.28-20.29.08:924][715]LogMetaData: Removing '/Game/HorrorEngine/AI/Leafs/FindPatrolPoint.SKEL_FindPatrolPoint_C' ref from Metadata '/Game/HorrorEngine/AIRevamp/Leafs/FindPatrolPoint.PackageMetaData'
+[2020.11.28-20.29.08:924][715]LogMetaData: Removing '/Game/HorrorEngine/AI/Leafs/FindPatrolPoint.FindPatrolPoint_C:ReceiveExecuteAI' ref from Metadata '/Game/HorrorEngine/AIRevamp/Leafs/FindPatrolPoint.PackageMetaData'
+[2020.11.28-20.29.08:946][715]LogMetaData: Removing '/Game/HorrorEngine/AI/Leafs/GetPlayerLocation.GetPlayerLocation_C' ref from Metadata '/Game/HorrorEngine/AIRevamp/Leafs/GetPlayerLocation.PackageMetaData'
+[2020.11.28-20.29.08:946][715]LogMetaData: Removing '/Game/HorrorEngine/AI/Leafs/GetPlayerLocation.SKEL_GetPlayerLocation_C:ReceiveExecuteAI' ref from Metadata '/Game/HorrorEngine/AIRevamp/Leafs/GetPlayerLocation.PackageMetaData'
+[2020.11.28-20.29.08:946][715]LogMetaData: Removing '/Game/HorrorEngine/AI/Leafs/GetPlayerLocation.SKEL_GetPlayerLocation_C' ref from Metadata '/Game/HorrorEngine/AIRevamp/Leafs/GetPlayerLocation.PackageMetaData'
+[2020.11.28-20.29.08:946][715]LogMetaData: Removing '/Game/HorrorEngine/AI/Leafs/GetPlayerLocation.GetPlayerLocation_C:ReceiveExecuteAI' ref from Metadata '/Game/HorrorEngine/AIRevamp/Leafs/GetPlayerLocation.PackageMetaData'
+[2020.11.28-20.29.08:972][715]LogMetaData: Removing '/Game/HorrorEngine/AI/Leafs/IncrementPointIndex.IncrementPointIndex_C' ref from Metadata '/Game/HorrorEngine/AIRevamp/Leafs/IncrementPointIndex.PackageMetaData'
+[2020.11.28-20.29.08:972][715]LogMetaData: Removing '/Game/HorrorEngine/AI/Leafs/IncrementPointIndex.SKEL_IncrementPointIndex_C:ReceiveExecuteAI' ref from Metadata '/Game/HorrorEngine/AIRevamp/Leafs/IncrementPointIndex.PackageMetaData'
+[2020.11.28-20.29.08:972][715]LogMetaData: Removing '/Game/HorrorEngine/AI/Leafs/IncrementPointIndex.SKEL_IncrementPointIndex_C' ref from Metadata '/Game/HorrorEngine/AIRevamp/Leafs/IncrementPointIndex.PackageMetaData'
+[2020.11.28-20.29.08:972][715]LogMetaData: Removing '/Game/HorrorEngine/AI/Leafs/IncrementPointIndex.IncrementPointIndex_C:ReceiveExecuteAI' ref from Metadata '/Game/HorrorEngine/AIRevamp/Leafs/IncrementPointIndex.PackageMetaData'
+[2020.11.28-20.29.08:994][715]LogMetaData: Removing '/Game/HorrorEngine/AI/Leafs/PathLoops.PathLoops_C' ref from Metadata '/Game/HorrorEngine/AIRevamp/Leafs/PathLoops.PackageMetaData'
+[2020.11.28-20.29.08:994][715]LogMetaData: Removing '/Game/HorrorEngine/AI/Leafs/PathLoops.SKEL_PathLoops_C:ReceiveExecuteAI' ref from Metadata '/Game/HorrorEngine/AIRevamp/Leafs/PathLoops.PackageMetaData'
+[2020.11.28-20.29.08:994][715]LogMetaData: Removing '/Game/HorrorEngine/AI/Leafs/PathLoops.SKEL_PathLoops_C' ref from Metadata '/Game/HorrorEngine/AIRevamp/Leafs/PathLoops.PackageMetaData'
+[2020.11.28-20.29.08:994][715]LogMetaData: Removing '/Game/HorrorEngine/AI/Leafs/PathLoops.PathLoops_C:ReceiveExecuteAI' ref from Metadata '/Game/HorrorEngine/AIRevamp/Leafs/PathLoops.PackageMetaData'
+[2020.11.28-20.29.09:029][715]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HorrorEngine/AI/Base_BB" FILE="C:/Users/clair/Documents/Unreal Projects/HEREloaded/Content/HorrorEngine/AI/Base_BB.uasset" SILENT=true
+[2020.11.28-20.29.09:038][715]LogSavePackage: Moving 'C:/Users/clair/Documents/Unreal Projects/HEREloaded/Saved/Base_BBA46EB53C4E0A2C05FD1642BA08E4B9AF.tmp' to 'C:/Users/clair/Documents/Unreal Projects/HEREloaded/Content/HorrorEngine/AI/Base_BB.uasset'
+[2020.11.28-20.29.09:040][715]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HorrorEngine/AI/Leafs/Walk" FILE="C:/Users/clair/Documents/Unreal Projects/HEREloaded/Content/HorrorEngine/AI/Leafs/Walk.uasset" SILENT=true
+[2020.11.28-20.29.09:051][715]LogSavePackage: Moving 'C:/Users/clair/Documents/Unreal Projects/HEREloaded/Saved/Walk65F5719548E50C85DC597787EC87E041.tmp' to 'C:/Users/clair/Documents/Unreal Projects/HEREloaded/Content/HorrorEngine/AI/Leafs/Walk.uasset'
+[2020.11.28-20.29.09:052][715]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HorrorEngine/AI/Leafs/Run" FILE="C:/Users/clair/Documents/Unreal Projects/HEREloaded/Content/HorrorEngine/AI/Leafs/Run.uasset" SILENT=true
+[2020.11.28-20.29.09:062][715]LogSavePackage: Moving 'C:/Users/clair/Documents/Unreal Projects/HEREloaded/Saved/Run407BB428417CE512F861F29D8BD2B241.tmp' to 'C:/Users/clair/Documents/Unreal Projects/HEREloaded/Content/HorrorEngine/AI/Leafs/Run.uasset'
+[2020.11.28-20.29.09:064][715]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HorrorEngine/AI/Leafs/MoveToPlayer" FILE="C:/Users/clair/Documents/Unreal Projects/HEREloaded/Content/HorrorEngine/AI/Leafs/MoveToPlayer.uasset" SILENT=true
+[2020.11.28-20.29.09:075][715]LogSavePackage: Moving 'C:/Users/clair/Documents/Unreal Projects/HEREloaded/Saved/MoveToPlayer3F6508DB44C2397D21D09DBF8692960F.tmp' to 'C:/Users/clair/Documents/Unreal Projects/HEREloaded/Content/HorrorEngine/AI/Leafs/MoveToPlayer.uasset'
+[2020.11.28-20.29.09:077][715]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HorrorEngine/AI/Leafs/GoTo" FILE="C:/Users/clair/Documents/Unreal Projects/HEREloaded/Content/HorrorEngine/AI/Leafs/GoTo.uasset" SILENT=true
+[2020.11.28-20.29.09:088][715]LogSavePackage: Moving 'C:/Users/clair/Documents/Unreal Projects/HEREloaded/Saved/GoTo68D7156B433F1D8E0DA68896B9CE3841.tmp' to 'C:/Users/clair/Documents/Unreal Projects/HEREloaded/Content/HorrorEngine/AI/Leafs/GoTo.uasset'
+[2020.11.28-20.29.09:090][715]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HorrorEngine/AI/Leafs/GetRandomLocation" FILE="C:/Users/clair/Documents/Unreal Projects/HEREloaded/Content/HorrorEngine/AI/Leafs/GetRandomLocation.uasset" SILENT=true
+[2020.11.28-20.29.09:101][715]LogSavePackage: Moving 'C:/Users/clair/Documents/Unreal Projects/HEREloaded/Saved/GetRandomLocation941724A444E7050593BEB489BFB0358E.tmp' to 'C:/Users/clair/Documents/Unreal Projects/HEREloaded/Content/HorrorEngine/AI/Leafs/GetRandomLocation.uasset'
+[2020.11.28-20.29.09:113][715]LogSavePackage: Moving 'C:/Users/clair/Documents/Unreal Projects/HEREloaded/Saved/GetNextTargetLocationC711358F4BB1B883CBC4FC83AAD6709A.tmp' to 'C:/Users/clair/Documents/Unreal Projects/HEREloaded/Content/HorrorEngine/AI/Leafs/GetNextTargetLocation.uasset'
+[2020.11.28-20.29.09:115][715]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HorrorEngine/AI/Base_BT" FILE="C:/Users/clair/Documents/Unreal Projects/HEREloaded/Content/HorrorEngine/AI/Base_BT.uasset" SILENT=true
+[2020.11.28-20.29.09:134][715]LogSavePackage: Moving 'C:/Users/clair/Documents/Unreal Projects/HEREloaded/Saved/Base_BTD5F8902C4B56CC89F33EA9877BFC8080.tmp' to 'C:/Users/clair/Documents/Unreal Projects/HEREloaded/Content/HorrorEngine/AI/Base_BT.uasset'
+[2020.11.28-20.29.09:136][715]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HorrorEngine/AI/Enums/Damageable" FILE="C:/Users/clair/Documents/Unreal Projects/HEREloaded/Content/HorrorEngine/AI/Enums/Damageable.uasset" SILENT=true
+[2020.11.28-20.29.09:142][715]LogSavePackage: Moving 'C:/Users/clair/Documents/Unreal Projects/HEREloaded/Saved/DamageableEBF69E944016B9D24983A581FF94F14C.tmp' to 'C:/Users/clair/Documents/Unreal Projects/HEREloaded/Content/HorrorEngine/AI/Enums/Damageable.uasset'
+[2020.11.28-20.29.09:143][715]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HorrorEngine/AI/Enums/Temperment" FILE="C:/Users/clair/Documents/Unreal Projects/HEREloaded/Content/HorrorEngine/AI/Enums/Temperment.uasset" SILENT=true
+[2020.11.28-20.29.09:150][715]LogSavePackage: Moving 'C:/Users/clair/Documents/Unreal Projects/HEREloaded/Saved/Temperment3A8EF6DA44B38F07E16B4889EF4D0065.tmp' to 'C:/Users/clair/Documents/Unreal Projects/HEREloaded/Content/HorrorEngine/AI/Enums/Temperment.uasset'
+[2020.11.28-20.29.09:152][715]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HorrorEngine/AI/Enums/Direction" FILE="C:/Users/clair/Documents/Unreal Projects/HEREloaded/Content/HorrorEngine/AI/Enums/Direction.uasset" SILENT=true
+[2020.11.28-20.29.09:158][715]LogSavePackage: Moving 'C:/Users/clair/Documents/Unreal Projects/HEREloaded/Saved/DirectionB1E1E3ED44B1A515EB07179BBF183013.tmp' to 'C:/Users/clair/Documents/Unreal Projects/HEREloaded/Content/HorrorEngine/AI/Enums/Direction.uasset'
+[2020.11.28-20.29.09:160][715]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HorrorEngine/AI/Enums/Senses" FILE="C:/Users/clair/Documents/Unreal Projects/HEREloaded/Content/HorrorEngine/AI/Enums/Senses.uasset" SILENT=true
+[2020.11.28-20.29.09:166][715]LogSavePackage: Moving 'C:/Users/clair/Documents/Unreal Projects/HEREloaded/Saved/Senses4B99CF7241224D9927CB949E57673661.tmp' to 'C:/Users/clair/Documents/Unreal Projects/HEREloaded/Content/HorrorEngine/AI/Enums/Senses.uasset'
+[2020.11.28-20.29.09:187][715]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HorrorEngine/AI/AIBase" FILE="C:/Users/clair/Documents/Unreal Projects/HEREloaded/Content/HorrorEngine/AI/AIBase.uasset" SILENT=true
+[2020.11.28-20.29.09:239][715]LogSavePackage: Moving 'C:/Users/clair/Documents/Unreal Projects/HEREloaded/Saved/AIBaseDD2D04674BD53E528574F8AD8CFF8DCC.tmp' to 'C:/Users/clair/Documents/Unreal Projects/HEREloaded/Content/HorrorEngine/AI/AIBase.uasset'
+[2020.11.28-20.29.09:241][715]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HorrorEngine/AI/Base_AI" FILE="C:/Users/clair/Documents/Unreal Projects/HEREloaded/Content/HorrorEngine/AI/Base_AI.uasset" SILENT=true
+[2020.11.28-20.29.09:269][715]LogSavePackage: Moving 'C:/Users/clair/Documents/Unreal Projects/HEREloaded/Saved/Base_AIDC6B940C40B4BA773DC6B4A51537AFAA.tmp' to 'C:/Users/clair/Documents/Unreal Projects/HEREloaded/Content/HorrorEngine/AI/Base_AI.uasset'
+[2020.11.28-20.29.09:280][715]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HorrorEngine/AI/Attacking_mixamo_com" FILE="C:/Users/clair/Documents/Unreal Projects/HEREloaded/Content/HorrorEngine/AI/Attacking_mixamo_com.uasset" SILENT=true
+[2020.11.28-20.29.09:329][715]LogSavePackage: Moving 'C:/Users/clair/Documents/Unreal Projects/HEREloaded/Saved/Attacking_mixamo_com5DBF1F37482938DE5C2CF8B2D5FD50AA.tmp' to 'C:/Users/clair/Documents/Unreal Projects/HEREloaded/Content/HorrorEngine/AI/Attacking_mixamo_com.uasset'
+[2020.11.28-20.29.09:330][715]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HorrorEngine/AI/PatrolPath" FILE="C:/Users/clair/Documents/Unreal Projects/HEREloaded/Content/HorrorEngine/AI/PatrolPath.uasset" SILENT=true
+[2020.11.28-20.29.09:340][715]LogSavePackage: Moving 'C:/Users/clair/Documents/Unreal Projects/HEREloaded/Saved/PatrolPath6C07D80B47C4CDE0C07920BEF30C3A6B.tmp' to 'C:/Users/clair/Documents/Unreal Projects/HEREloaded/Content/HorrorEngine/AI/PatrolPath.uasset'
+[2020.11.28-20.29.09:350][715]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HorrorEngine/AI/Stand_To_Prone1" FILE="C:/Users/clair/Documents/Unreal Projects/HEREloaded/Content/HorrorEngine/AI/Stand_To_Prone1.uasset" SILENT=true
+[2020.11.28-20.29.09:361][715]LogSavePackage: Moving 'C:/Users/clair/Documents/Unreal Projects/HEREloaded/Saved/Stand_To_Prone10CF2FBB0407908EF5899E6A21A1220C9.tmp' to 'C:/Users/clair/Documents/Unreal Projects/HEREloaded/Content/HorrorEngine/AI/Stand_To_Prone1.uasset'
+[2020.11.28-20.29.09:371][715]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HorrorEngine/AI/Crouch" FILE="C:/Users/clair/Documents/Unreal Projects/HEREloaded/Content/HorrorEngine/AI/Crouch.uasset" SILENT=true
+[2020.11.28-20.29.09:384][715]LogSavePackage: Moving 'C:/Users/clair/Documents/Unreal Projects/HEREloaded/Saved/Crouch19D91715464F47C4C1EC02915E4002D4.tmp' to 'C:/Users/clair/Documents/Unreal Projects/HEREloaded/Content/HorrorEngine/AI/Crouch.uasset'
+[2020.11.28-20.29.09:443][715]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HorrorEngine/AI/HitTest" FILE="C:/Users/clair/Documents/Unreal Projects/HEREloaded/Content/HorrorEngine/AI/HitTest.uasset" SILENT=true
+[2020.11.28-20.29.09:465][715]LogSavePackage: Moving 'C:/Users/clair/Documents/Unreal Projects/HEREloaded/Saved/HitTestDB096AB043728E1314BBA3A90128F2D0.tmp' to 'C:/Users/clair/Documents/Unreal Projects/HEREloaded/Content/HorrorEngine/AI/HitTest.uasset'
+[2020.11.28-20.29.09:467][715]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HorrorEngine/AI/AITarget" FILE="C:/Users/clair/Documents/Unreal Projects/HEREloaded/Content/HorrorEngine/AI/AITarget.uasset" SILENT=true
+[2020.11.28-20.29.09:472][715]LogSavePackage: Moving 'C:/Users/clair/Documents/Unreal Projects/HEREloaded/Saved/AITargetA80672AE417A24213E610BB8DBC7099E.tmp' to 'C:/Users/clair/Documents/Unreal Projects/HEREloaded/Content/HorrorEngine/AI/AITarget.uasset'
+[2020.11.28-20.29.09:474][715]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HorrorEngine/AI/AITarget_C" FILE="C:/Users/clair/Documents/Unreal Projects/HEREloaded/Content/HorrorEngine/AI/AITarget_C.uasset" SILENT=true
+[2020.11.28-20.29.09:480][715]LogSavePackage: Moving 'C:/Users/clair/Documents/Unreal Projects/HEREloaded/Saved/AITarget_CA8A8B861406804E87837C7B5E36210E9.tmp' to 'C:/Users/clair/Documents/Unreal Projects/HEREloaded/Content/HorrorEngine/AI/AITarget_C.uasset'
+[2020.11.28-20.29.09:482][715]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HorrorEngine/AI/AI_HP" FILE="C:/Users/clair/Documents/Unreal Projects/HEREloaded/Content/HorrorEngine/AI/AI_HP.uasset" SILENT=true
+[2020.11.28-20.29.09:493][715]LogSavePackage: Moving 'C:/Users/clair/Documents/Unreal Projects/HEREloaded/Saved/AI_HPA3FAACE2404466DA14EC1B977E25AEA6.tmp' to 'C:/Users/clair/Documents/Unreal Projects/HEREloaded/Content/HorrorEngine/AI/AI_HP.uasset'
+[2020.11.28-20.29.09:495][715]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HorrorEngine/AI/MoveToFast_New" FILE="C:/Users/clair/Documents/Unreal Projects/HEREloaded/Content/HorrorEngine/AI/MoveToFast_New.uasset" SILENT=true
+[2020.11.28-20.29.09:502][715]LogSavePackage: Moving 'C:/Users/clair/Documents/Unreal Projects/HEREloaded/Saved/MoveToFast_NewBA4D17A84FD6862F93B97D9C9FC8F166.tmp' to 'C:/Users/clair/Documents/Unreal Projects/HEREloaded/Content/HorrorEngine/AI/MoveToFast_New.uasset'
+[2020.11.28-20.29.09:504][715]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HorrorEngine/AI/Leafs/ChasePlayer" FILE="C:/Users/clair/Documents/Unreal Projects/HEREloaded/Content/HorrorEngine/AI/Leafs/ChasePlayer.uasset" SILENT=true
+[2020.11.28-20.29.09:514][715]LogSavePackage: Moving 'C:/Users/clair/Documents/Unreal Projects/HEREloaded/Saved/ChasePlayerFB8066404D222549078BE9B7FD395591.tmp' to 'C:/Users/clair/Documents/Unreal Projects/HEREloaded/Content/HorrorEngine/AI/Leafs/ChasePlayer.uasset'
+[2020.11.28-20.29.09:532][715]LogSavePackage: Moving 'C:/Users/clair/Documents/Unreal Projects/HEREloaded/Saved/DencrementPointIndex222ACD5240D1278FA60C019BAAD83292.tmp' to 'C:/Users/clair/Documents/Unreal Projects/HEREloaded/Content/HorrorEngine/AI/Leafs/DencrementPointIndex.uasset'
+[2020.11.28-20.29.09:534][715]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HorrorEngine/AI/Leafs/FindPatrolPoint" FILE="C:/Users/clair/Documents/Unreal Projects/HEREloaded/Content/HorrorEngine/AI/Leafs/FindPatrolPoint.uasset" SILENT=true
+[2020.11.28-20.29.09:548][715]LogSavePackage: Moving 'C:/Users/clair/Documents/Unreal Projects/HEREloaded/Saved/FindPatrolPoint659A15454ABE9512C366A29D84BE95FF.tmp' to 'C:/Users/clair/Documents/Unreal Projects/HEREloaded/Content/HorrorEngine/AI/Leafs/FindPatrolPoint.uasset'
+[2020.11.28-20.29.09:550][715]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HorrorEngine/AI/Leafs/GetPlayerLocation" FILE="C:/Users/clair/Documents/Unreal Projects/HEREloaded/Content/HorrorEngine/AI/Leafs/GetPlayerLocation.uasset" SILENT=true
+[2020.11.28-20.29.09:561][715]LogSavePackage: Moving 'C:/Users/clair/Documents/Unreal Projects/HEREloaded/Saved/GetPlayerLocationEB3DE88947B72E3B21CE8684DA1F50A9.tmp' to 'C:/Users/clair/Documents/Unreal Projects/HEREloaded/Content/HorrorEngine/AI/Leafs/GetPlayerLocation.uasset'
+[2020.11.28-20.29.09:578][715]LogSavePackage: Moving 'C:/Users/clair/Documents/Unreal Projects/HEREloaded/Saved/IncrementPointIndex23EBBABC43235F8EE275EB8D96F2F68C.tmp' to 'C:/Users/clair/Documents/Unreal Projects/HEREloaded/Content/HorrorEngine/AI/Leafs/IncrementPointIndex.uasset'
+[2020.11.28-20.29.09:580][715]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HorrorEngine/AI/Leafs/PathLoops" FILE="C:/Users/clair/Documents/Unreal Projects/HEREloaded/Content/HorrorEngine/AI/Leafs/PathLoops.uasset" SILENT=true
+[2020.11.28-20.29.09:592][715]LogSavePackage: Moving 'C:/Users/clair/Documents/Unreal Projects/HEREloaded/Saved/PathLoops55FCE15944BE1A13AF5E88910E33A048.tmp' to 'C:/Users/clair/Documents/Unreal Projects/HEREloaded/Content/HorrorEngine/AI/Leafs/PathLoops.uasset'
+[2020.11.28-20.29.15:612][715]LogUObjectHash: Compacting FUObjectHashTables data took   4.75ms
+[2020.11.28-20.29.15:639][715]LogUObjectHash: Compacting FUObjectHashTables data took   3.65ms
+[2020.11.28-20.29.15:662][715]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2020.11.28-20.29.15:684][715]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2020.11.28-20.29.15:707][715]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2020.11.28-20.29.15:729][715]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2020.11.28-20.29.15:752][715]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2020.11.28-20.29.15:774][715]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2020.11.28-20.29.15:800][715]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2020.11.28-20.29.15:827][715]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2020.11.28-20.29.15:850][715]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2020.11.28-20.29.15:873][715]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2020.11.28-20.29.15:895][715]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2020.11.28-20.29.15:918][715]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2020.11.28-20.29.15:941][715]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2020.11.28-20.29.15:964][715]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2020.11.28-20.29.15:986][715]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2020.11.28-20.29.16:009][715]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2020.11.28-20.29.16:035][715]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2020.11.28-20.29.16:058][715]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2020.11.28-20.29.16:081][715]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2020.11.28-20.29.16:103][715]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2020.11.28-20.29.16:126][715]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2020.11.28-20.29.16:148][715]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2020.11.28-20.29.16:171][715]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2020.11.28-20.29.16:194][715]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2020.11.28-20.29.16:217][715]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2020.11.28-20.29.16:243][715]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2020.11.28-20.29.16:276][715]LogUObjectHash: Compacting FUObjectHashTables data took   2.99ms
+[2020.11.28-20.29.16:300][715]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2020.11.28-20.29.16:981][715]AssetCheck: New page: Asset Save: multiple assets
+[2020.11.28-20.29.16:981][715]LogContentValidation: Display: Validating BlackboardData /Game/HorrorEngine/AI/Base_BB.Base_BB
+[2020.11.28-20.29.16:981][715]LogContentValidation: Display: Validating Blueprint /Game/HorrorEngine/AI/Leafs/Walk.Walk
+[2020.11.28-20.29.16:981][715]LogContentValidation: Display: Validating Blueprint /Game/HorrorEngine/AI/Leafs/Run.Run
+[2020.11.28-20.29.16:981][715]LogContentValidation: Display: Validating Blueprint /Game/HorrorEngine/AI/Leafs/MoveToPlayer.MoveToPlayer
+[2020.11.28-20.29.16:981][715]LogContentValidation: Display: Validating Blueprint /Game/HorrorEngine/AI/Leafs/GoTo.GoTo
+[2020.11.28-20.29.16:981][715]LogContentValidation: Display: Validating Blueprint /Game/HorrorEngine/AI/Leafs/GetRandomLocation.GetRandomLocation
+[2020.11.28-20.29.16:981][715]LogContentValidation: Display: Validating Blueprint /Game/HorrorEngine/AI/Leafs/GetNextTargetLocation.GetNextTargetLocation
+[2020.11.28-20.29.16:981][715]LogContentValidation: Display: Validating BehaviorTree /Game/HorrorEngine/AI/Base_BT.Base_BT
+[2020.11.28-20.29.16:981][715]LogContentValidation: Display: Validating UserDefinedEnum /Game/HorrorEngine/AI/Enums/Damageable.Damageable
+[2020.11.28-20.29.16:981][715]LogContentValidation: Display: Validating UserDefinedEnum /Game/HorrorEngine/AI/Enums/Temperment.Temperment
+[2020.11.28-20.29.16:981][715]LogContentValidation: Display: Validating UserDefinedEnum /Game/HorrorEngine/AI/Enums/Direction.Direction
+[2020.11.28-20.29.16:981][715]LogContentValidation: Display: Validating UserDefinedEnum /Game/HorrorEngine/AI/Enums/Senses.Senses
+[2020.11.28-20.29.16:981][715]LogContentValidation: Display: Validating Blueprint /Game/HorrorEngine/AI/AIBase.AIBase
+[2020.11.28-20.29.16:981][715]LogContentValidation: Display: Validating Blueprint /Game/HorrorEngine/AI/Base_AI.Base_AI
+[2020.11.28-20.29.16:981][715]LogContentValidation: Display: Validating AnimSequence /Game/HorrorEngine/AI/Attacking_mixamo_com.Attacking_mixamo_com
+[2020.11.28-20.29.16:981][715]LogContentValidation: Display: Validating Blueprint /Game/HorrorEngine/AI/PatrolPath.PatrolPath
+[2020.11.28-20.29.16:981][715]LogContentValidation: Display: Validating AnimSequence /Game/HorrorEngine/AI/Stand_To_Prone1.Stand_To_Prone1
+[2020.11.28-20.29.16:981][715]LogContentValidation: Display: Validating AnimSequence /Game/HorrorEngine/AI/Crouch.Crouch
+[2020.11.28-20.29.16:981][715]LogContentValidation: Display: Validating Blueprint /Game/HorrorEngine/AI/HitTest.HitTest
+[2020.11.28-20.29.16:981][715]LogContentValidation: Display: Validating ObjectRedirector /Game/HorrorEngine/AI/AITarget.AITarget
+[2020.11.28-20.29.16:981][715]LogContentValidation: Display: Validating ObjectRedirector /Game/HorrorEngine/AI/AITarget_C.AITarget_C
+[2020.11.28-20.29.16:981][715]LogContentValidation: Display: Validating WidgetBlueprint /Game/HorrorEngine/AI/AI_HP.AI_HP
+[2020.11.28-20.29.16:981][715]LogContentValidation: Display: Validating Blueprint /Game/HorrorEngine/AI/MoveToFast_New.MoveToFast_New
+[2020.11.28-20.29.16:981][715]LogContentValidation: Display: Validating Blueprint /Game/HorrorEngine/AI/Leafs/ChasePlayer.ChasePlayer
+[2020.11.28-20.29.16:981][715]LogContentValidation: Display: Validating Blueprint /Game/HorrorEngine/AI/Leafs/DencrementPointIndex.DencrementPointIndex
+[2020.11.28-20.29.16:981][715]LogContentValidation: Display: Validating Blueprint /Game/HorrorEngine/AI/Leafs/FindPatrolPoint.FindPatrolPoint
+[2020.11.28-20.29.16:981][715]LogContentValidation: Display: Validating Blueprint /Game/HorrorEngine/AI/Leafs/GetPlayerLocation.GetPlayerLocation
+[2020.11.28-20.29.16:981][715]LogContentValidation: Display: Validating Blueprint /Game/HorrorEngine/AI/Leafs/IncrementPointIndex.IncrementPointIndex
+[2020.11.28-20.29.16:981][715]LogContentValidation: Display: Validating Blueprint /Game/HorrorEngine/AI/Leafs/PathLoops.PathLoops
+[2020.11.28-20.29.22:385][947]LogMetaData: Removing '/Game/HorrorEngine/Blueprints/AI/Leafs/Walk.Walk_C' ref from Metadata '/Game/HorrorEngine/AI/Leafs/Walk.PackageMetaData'
+[2020.11.28-20.29.22:385][947]LogMetaData: Removing '/Game/HorrorEngine/Blueprints/AI/Leafs/Walk.Walk_C:ReceiveExecuteAI' ref from Metadata '/Game/HorrorEngine/AI/Leafs/Walk.PackageMetaData'
+[2020.11.28-20.29.22:385][947]LogMetaData: Removing '/Game/HorrorEngine/Blueprints/AI/Leafs/Walk.SKEL_Walk_C' ref from Metadata '/Game/HorrorEngine/AI/Leafs/Walk.PackageMetaData'
+[2020.11.28-20.29.22:385][947]LogMetaData: Removing '/Game/HorrorEngine/Blueprints/AI/Leafs/Walk.SKEL_Walk_C:ReceiveExecuteAI' ref from Metadata '/Game/HorrorEngine/AI/Leafs/Walk.PackageMetaData'
+[2020.11.28-20.29.22:406][947]LogMetaData: Removing '/Game/HorrorEngine/Blueprints/AI/Leafs/Run.Run_C' ref from Metadata '/Game/HorrorEngine/AI/Leafs/Run.PackageMetaData'
+[2020.11.28-20.29.22:406][947]LogMetaData: Removing '/Game/HorrorEngine/Blueprints/AI/Leafs/Run.Run_C:ReceiveExecuteAI' ref from Metadata '/Game/HorrorEngine/AI/Leafs/Run.PackageMetaData'
+[2020.11.28-20.29.22:406][947]LogMetaData: Removing '/Game/HorrorEngine/Blueprints/AI/Leafs/Run.SKEL_Run_C' ref from Metadata '/Game/HorrorEngine/AI/Leafs/Run.PackageMetaData'
+[2020.11.28-20.29.22:406][947]LogMetaData: Removing '/Game/HorrorEngine/Blueprints/AI/Leafs/Run.SKEL_Run_C:ReceiveExecuteAI' ref from Metadata '/Game/HorrorEngine/AI/Leafs/Run.PackageMetaData'
+[2020.11.28-20.29.22:427][947]LogMetaData: Removing '/Game/HorrorEngine/Blueprints/AI/Leafs/MoveToPlayer.MoveToPlayer_C' ref from Metadata '/Game/HorrorEngine/AI/Leafs/MoveToPlayer.PackageMetaData'
+[2020.11.28-20.29.22:427][947]LogMetaData: Removing '/Game/HorrorEngine/Blueprints/AI/Leafs/MoveToPlayer.MoveToPlayer_C:ReceiveExecuteAI' ref from Metadata '/Game/HorrorEngine/AI/Leafs/MoveToPlayer.PackageMetaData'
+[2020.11.28-20.29.22:427][947]LogMetaData: Removing '/Game/HorrorEngine/Blueprints/AI/Leafs/MoveToPlayer.MoveToPlayer_C:OnSuccess_3CD23FA04DB52A50A87DCFA7B2B2DC7E' ref from Metadata '/Game/HorrorEngine/AI/Leafs/MoveToPlayer.PackageMetaData'
+[2020.11.28-20.29.22:427][947]LogMetaData: Removing '/Game/HorrorEngine/Blueprints/AI/Leafs/MoveToPlayer.MoveToPlayer_C:OnFail_3CD23FA04DB52A50A87DCFA7B2B2DC7E' ref from Metadata '/Game/HorrorEngine/AI/Leafs/MoveToPlayer.PackageMetaData'
+[2020.11.28-20.29.22:427][947]LogMetaData: Removing '/Game/HorrorEngine/Blueprints/AI/Leafs/MoveToPlayer.SKEL_MoveToPlayer_C' ref from Metadata '/Game/HorrorEngine/AI/Leafs/MoveToPlayer.PackageMetaData'
+[2020.11.28-20.29.22:427][947]LogMetaData: Removing '/Game/HorrorEngine/Blueprints/AI/Leafs/MoveToPlayer.SKEL_MoveToPlayer_C:ReceiveExecuteAI' ref from Metadata '/Game/HorrorEngine/AI/Leafs/MoveToPlayer.PackageMetaData'
+[2020.11.28-20.29.22:448][947]LogMetaData: Removing '/Game/HorrorEngine/Blueprints/AI/Leafs/GoTo.GoTo_C' ref from Metadata '/Game/HorrorEngine/AI/Leafs/GoTo.PackageMetaData'
+[2020.11.28-20.29.22:448][947]LogMetaData: Removing '/Game/HorrorEngine/Blueprints/AI/Leafs/GoTo.GoTo_C:ReceiveExecuteAI' ref from Metadata '/Game/HorrorEngine/AI/Leafs/GoTo.PackageMetaData'
+[2020.11.28-20.29.22:448][947]LogMetaData: Removing '/Game/HorrorEngine/Blueprints/AI/Leafs/GoTo.GoTo_C:OnSuccess_CDDEA9D645866AF7C504D5A203C483B0' ref from Metadata '/Game/HorrorEngine/AI/Leafs/GoTo.PackageMetaData'
+[2020.11.28-20.29.22:448][947]LogMetaData: Removing '/Game/HorrorEngine/Blueprints/AI/Leafs/GoTo.GoTo_C:OnFail_CDDEA9D645866AF7C504D5A203C483B0' ref from Metadata '/Game/HorrorEngine/AI/Leafs/GoTo.PackageMetaData'
+[2020.11.28-20.29.22:448][947]LogMetaData: Removing '/Game/HorrorEngine/Blueprints/AI/Leafs/GoTo.SKEL_GoTo_C' ref from Metadata '/Game/HorrorEngine/AI/Leafs/GoTo.PackageMetaData'
+[2020.11.28-20.29.22:448][947]LogMetaData: Removing '/Game/HorrorEngine/Blueprints/AI/Leafs/GoTo.SKEL_GoTo_C:ReceiveExecuteAI' ref from Metadata '/Game/HorrorEngine/AI/Leafs/GoTo.PackageMetaData'
+[2020.11.28-20.29.22:471][947]LogMetaData: Removing '/Game/HorrorEngine/Blueprints/AI/Leafs/GetRandomLocation.GetRandomLocation_C' ref from Metadata '/Game/HorrorEngine/AI/Leafs/GetRandomLocation.PackageMetaData'
+[2020.11.28-20.29.22:471][947]LogMetaData: Removing '/Game/HorrorEngine/Blueprints/AI/Leafs/GetRandomLocation.GetRandomLocation_C:ReceiveExecuteAI' ref from Metadata '/Game/HorrorEngine/AI/Leafs/GetRandomLocation.PackageMetaData'
+[2020.11.28-20.29.22:471][947]LogMetaData: Removing '/Game/HorrorEngine/Blueprints/AI/Leafs/GetRandomLocation.SKEL_GetRandomLocation_C' ref from Metadata '/Game/HorrorEngine/AI/Leafs/GetRandomLocation.PackageMetaData'
+[2020.11.28-20.29.22:471][947]LogMetaData: Removing '/Game/HorrorEngine/Blueprints/AI/Leafs/GetRandomLocation.SKEL_GetRandomLocation_C:ReceiveExecuteAI' ref from Metadata '/Game/HorrorEngine/AI/Leafs/GetRandomLocation.PackageMetaData'
+[2020.11.28-20.29.22:492][947]LogMetaData: Removing '/Game/HorrorEngine/Blueprints/AI/Leafs/GetNextTargetLocation.GetNextTargetLocation_C' ref from Metadata '/Game/HorrorEngine/AI/Leafs/GetNextTargetLocation.PackageMetaData'
+[2020.11.28-20.29.22:492][947]LogMetaData: Removing '/Game/HorrorEngine/Blueprints/AI/Leafs/GetNextTargetLocation.GetNextTargetLocation_C:ReceiveExecuteAI' ref from Metadata '/Game/HorrorEngine/AI/Leafs/GetNextTargetLocation.PackageMetaData'
+[2020.11.28-20.29.22:492][947]LogMetaData: Removing '/Game/HorrorEngine/Blueprints/AI/Leafs/GetNextTargetLocation.SKEL_GetNextTargetLocation_C' ref from Metadata '/Game/HorrorEngine/AI/Leafs/GetNextTargetLocation.PackageMetaData'
+[2020.11.28-20.29.22:492][947]LogMetaData: Removing '/Game/HorrorEngine/Blueprints/AI/Leafs/GetNextTargetLocation.SKEL_GetNextTargetLocation_C:ReceiveExecuteAI' ref from Metadata '/Game/HorrorEngine/AI/Leafs/GetNextTargetLocation.PackageMetaData'
+[2020.11.28-20.29.22:513][947]LogMetaData: Removing '/Game/HorrorEngine/Blueprints/AI/Base_BT.Base_BT:Behavior Tree.BehaviorTreeGraphNode_Root_0' ref from Metadata '/Game/HorrorEngine/AI/Base_BT.PackageMetaData'
+[2020.11.28-20.29.22:555][947]LogMetaData: Removing '/Game/HorrorEngine/Blueprints/AI/Enums/Temperment.Temperment' ref from Metadata '/Game/HorrorEngine/AI/Enums/Temperment.PackageMetaData'
+[2020.11.28-20.29.22:577][947]LogMetaData: Removing '/Game/HorrorEngine/Blueprints/AI/Enums/Direction.Direction' ref from Metadata '/Game/HorrorEngine/AI/Enums/Direction.PackageMetaData'
+[2020.11.28-20.29.22:620][947]LogMetaData: Removing '/Game/HorrorEngine/Blueprints/AI/AIBase.AIBase_C' ref from Metadata '/Game/HorrorEngine/AI/AIBase.PackageMetaData'
+[2020.11.28-20.29.22:620][947]LogMetaData: Removing '/Game/HorrorEngine/Blueprints/AI/AIBase.AIBase_C:ReceiveBeginPlay' ref from Metadata '/Game/HorrorEngine/AI/AIBase.PackageMetaData'
+[2020.11.28-20.29.22:620][947]LogMetaData: Removing '/Game/HorrorEngine/Blueprints/AI/AIBase.AIBase_C:Damage' ref from Metadata '/Game/HorrorEngine/AI/AIBase.PackageMetaData'
+[2020.11.28-20.29.22:620][947]LogMetaData: Removing '/Game/HorrorEngine/Blueprints/AI/AIBase.AIBase_C:UserConstructionScript' ref from Metadata '/Game/HorrorEngine/AI/AIBase.PackageMetaData'
+[2020.11.28-20.29.22:620][947]LogMetaData: Removing '/Game/HorrorEngine/Blueprints/AI/AIBase.SKEL_AIBase_C' ref from Metadata '/Game/HorrorEngine/AI/AIBase.PackageMetaData'
+[2020.11.28-20.29.22:620][947]LogMetaData: Removing '/Game/HorrorEngine/Blueprints/AI/AIBase.SKEL_AIBase_C:Run' ref from Metadata '/Game/HorrorEngine/AI/AIBase.PackageMetaData'
+[2020.11.28-20.29.22:620][947]LogMetaData: Removing '/Game/HorrorEngine/Blueprints/AI/AIBase.SKEL_AIBase_C:Walk' ref from Metadata '/Game/HorrorEngine/AI/AIBase.PackageMetaData'
+[2020.11.28-20.29.22:620][947]LogMetaData: Removing '/Game/HorrorEngine/Blueprints/AI/AIBase.SKEL_AIBase_C:Damage' ref from Metadata '/Game/HorrorEngine/AI/AIBase.PackageMetaData'
+[2020.11.28-20.29.22:620][947]LogMetaData: Removing '/Game/HorrorEngine/Blueprints/AI/AIBase.SKEL_AIBase_C:React' ref from Metadata '/Game/HorrorEngine/AI/AIBase.PackageMetaData'
+[2020.11.28-20.29.22:620][947]LogMetaData: Removing '/Game/HorrorEngine/Blueprints/AI/AIBase.SKEL_AIBase_C:BndEvt__ChestHitbox_K2Node_ComponentBoundEvent_1_ComponentBeginOverlapSignature__DelegateSignature' ref from Metadata '/Game/HorrorEngine/AI/AIBase.PackageMetaData'
+[2020.11.28-20.29.22:620][947]LogMetaData: Removing '/Game/HorrorEngine/Blueprints/AI/AIBase.SKEL_AIBase_C:CheckHealth' ref from Metadata '/Game/HorrorEngine/AI/AIBase.PackageMetaData'
+[2020.11.28-20.29.22:620][947]LogMetaData: Removing '/Game/HorrorEngine/Blueprints/AI/AIBase.SKEL_AIBase_C:No health' ref from Metadata '/Game/HorrorEngine/AI/AIBase.PackageMetaData'
+[2020.11.28-20.29.22:620][947]LogMetaData: Removing '/Game/HorrorEngine/Blueprints/AI/AIBase.SKEL_AIBase_C:ReceiveBeginPlay' ref from Metadata '/Game/HorrorEngine/AI/AIBase.PackageMetaData'
+[2020.11.28-20.29.22:620][947]LogMetaData: Removing '/Game/HorrorEngine/Blueprints/AI/AIBase.SKEL_AIBase_C:Stunned' ref from Metadata '/Game/HorrorEngine/AI/AIBase.PackageMetaData'
+[2020.11.28-20.29.22:620][947]LogMetaData: Removing '/Game/HorrorEngine/Blueprints/AI/AIBase.SKEL_AIBase_C:BndEvt__HeadHitbox_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature' ref from Metadata '/Game/HorrorEngine/AI/AIBase.PackageMetaData'
+[2020.11.28-20.29.22:620][947]LogMetaData: Removing '/Game/HorrorEngine/Blueprints/AI/AIBase.SKEL_AIBase_C:UserConstructionScript' ref from Metadata '/Game/HorrorEngine/AI/AIBase.PackageMetaData'
+[2020.11.28-20.29.22:620][947]LogMetaData: Removing '/Game/HorrorEngine/Blueprints/AI/AIBase.AIBase:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/HorrorEngine/AI/AIBase.PackageMetaData'
+[2020.11.28-20.29.22:641][947]LogMetaData: Removing '/Game/HorrorEngine/Blueprints/AI/Base_AI.Base_AI_C' ref from Metadata '/Game/HorrorEngine/AI/Base_AI.PackageMetaData'
+[2020.11.28-20.29.22:641][947]LogMetaData: Removing '/Game/HorrorEngine/Blueprints/AI/Base_AI.Base_AI_C:ReceiveBeginPlay' ref from Metadata '/Game/HorrorEngine/AI/Base_AI.PackageMetaData'
+[2020.11.28-20.29.22:641][947]LogMetaData: Removing '/Game/HorrorEngine/Blueprints/AI/Base_AI.SKEL_Base_AI_C' ref from Metadata '/Game/HorrorEngine/AI/Base_AI.PackageMetaData'
+[2020.11.28-20.29.22:641][947]LogMetaData: Removing '/Game/HorrorEngine/Blueprints/AI/Base_AI.SKEL_Base_AI_C:ReceiveBeginPlay' ref from Metadata '/Game/HorrorEngine/AI/Base_AI.PackageMetaData'
+[2020.11.28-20.29.22:641][947]LogMetaData: Removing '/Game/HorrorEngine/Blueprints/AI/Base_AI.SKEL_Base_AI_C:BndEvt__AIPerception_K2Node_ComponentBoundEvent_0_ActorPerceptionUpdatedDelegate__DelegateSignature' ref from Metadata '/Game/HorrorEngine/AI/Base_AI.PackageMetaData'
+[2020.11.28-20.29.22:641][947]LogMetaData: Removing '/Game/HorrorEngine/Blueprints/AI/Base_AI.SKEL_Base_AI_C:GetNextPoint' ref from Metadata '/Game/HorrorEngine/AI/Base_AI.PackageMetaData'
+[2020.11.28-20.29.22:641][947]LogMetaData: Removing '/Game/HorrorEngine/Blueprints/AI/Base_AI.SKEL_Base_AI_C:UserConstructionScript' ref from Metadata '/Game/HorrorEngine/AI/Base_AI.PackageMetaData'
+[2020.11.28-20.29.22:641][947]LogMetaData: Removing '/Game/HorrorEngine/Blueprints/AI/Base_AI.Base_AI:EventGraph.K2Node_Event_0' ref from Metadata '/Game/HorrorEngine/AI/Base_AI.PackageMetaData'
+[2020.11.28-20.29.22:641][947]LogMetaData: Removing '/Game/HorrorEngine/Blueprints/AI/Base_AI.Base_AI:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/HorrorEngine/AI/Base_AI.PackageMetaData'
+[2020.11.28-20.29.22:691][947]LogMetaData: Removing '/Game/HorrorEngine/Blueprints/AI/PatrolPath.PatrolPath_C' ref from Metadata '/Game/HorrorEngine/AI/PatrolPath.PackageMetaData'
+[2020.11.28-20.29.22:691][947]LogMetaData: Removing '/Game/HorrorEngine/Blueprints/AI/PatrolPath.SKEL_PatrolPath_C' ref from Metadata '/Game/HorrorEngine/AI/PatrolPath.PackageMetaData'
+[2020.11.28-20.29.22:691][947]LogMetaData: Removing '/Game/HorrorEngine/Blueprints/AI/PatrolPath.SKEL_PatrolPath_C:ReceiveBeginPlay' ref from Metadata '/Game/HorrorEngine/AI/PatrolPath.PackageMetaData'
+[2020.11.28-20.29.22:691][947]LogMetaData: Removing '/Game/HorrorEngine/Blueprints/AI/PatrolPath.SKEL_PatrolPath_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/HorrorEngine/AI/PatrolPath.PackageMetaData'
+[2020.11.28-20.29.22:691][947]LogMetaData: Removing '/Game/HorrorEngine/Blueprints/AI/PatrolPath.SKEL_PatrolPath_C:ReceiveTick' ref from Metadata '/Game/HorrorEngine/AI/PatrolPath.PackageMetaData'
+[2020.11.28-20.29.22:691][947]LogMetaData: Removing '/Game/HorrorEngine/Blueprints/AI/PatrolPath.SKEL_PatrolPath_C:UserConstructionScript' ref from Metadata '/Game/HorrorEngine/AI/PatrolPath.PackageMetaData'
+[2020.11.28-20.29.22:691][947]LogMetaData: Removing '/Game/HorrorEngine/Blueprints/AI/PatrolPath.PatrolPath:EventGraph.K2Node_Event_0' ref from Metadata '/Game/HorrorEngine/AI/PatrolPath.PackageMetaData'
+[2020.11.28-20.29.22:691][947]LogMetaData: Removing '/Game/HorrorEngine/Blueprints/AI/PatrolPath.PatrolPath:EventGraph.K2Node_Event_1' ref from Metadata '/Game/HorrorEngine/AI/PatrolPath.PackageMetaData'
+[2020.11.28-20.29.22:691][947]LogMetaData: Removing '/Game/HorrorEngine/Blueprints/AI/PatrolPath.PatrolPath:EventGraph.K2Node_Event_2' ref from Metadata '/Game/HorrorEngine/AI/PatrolPath.PackageMetaData'
+[2020.11.28-20.29.22:691][947]LogMetaData: Removing '/Game/HorrorEngine/Blueprints/AI/PatrolPath.PatrolPath:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/HorrorEngine/AI/PatrolPath.PackageMetaData'
+[2020.11.28-20.29.22:755][947]LogMetaData: Removing '/Game/HorrorEngine/Blueprints/AI/Leafs/PathLoops.PathLoops_C' ref from Metadata '/Game/HorrorEngine/AI/Leafs/PathLoops.PackageMetaData'
+[2020.11.28-20.29.22:755][947]LogMetaData: Removing '/Game/HorrorEngine/Blueprints/AI/Leafs/PathLoops.PathLoops_C:ReceiveExecuteAI' ref from Metadata '/Game/HorrorEngine/AI/Leafs/PathLoops.PackageMetaData'
+[2020.11.28-20.29.22:755][947]LogMetaData: Removing '/Game/HorrorEngine/Blueprints/AI/Leafs/PathLoops.SKEL_PathLoops_C' ref from Metadata '/Game/HorrorEngine/AI/Leafs/PathLoops.PackageMetaData'
+[2020.11.28-20.29.22:755][947]LogMetaData: Removing '/Game/HorrorEngine/Blueprints/AI/Leafs/PathLoops.SKEL_PathLoops_C:ReceiveExecuteAI' ref from Metadata '/Game/HorrorEngine/AI/Leafs/PathLoops.PackageMetaData'
+[2020.11.28-20.29.22:776][947]LogMetaData: Removing '/Game/HorrorEngine/Blueprints/AI/Leafs/IncrementPointIndex.IncrementPointIndex_C' ref from Metadata '/Game/HorrorEngine/AI/Leafs/IncrementPointIndex.PackageMetaData'
+[2020.11.28-20.29.22:776][947]LogMetaData: Removing '/Game/HorrorEngine/Blueprints/AI/Leafs/IncrementPointIndex.IncrementPointIndex_C:ReceiveExecuteAI' ref from Metadata '/Game/HorrorEngine/AI/Leafs/IncrementPointIndex.PackageMetaData'
+[2020.11.28-20.29.22:776][947]LogMetaData: Removing '/Game/HorrorEngine/Blueprints/AI/Leafs/IncrementPointIndex.SKEL_IncrementPointIndex_C' ref from Metadata '/Game/HorrorEngine/AI/Leafs/IncrementPointIndex.PackageMetaData'
+[2020.11.28-20.29.22:776][947]LogMetaData: Removing '/Game/HorrorEngine/Blueprints/AI/Leafs/IncrementPointIndex.SKEL_IncrementPointIndex_C:ReceiveExecuteAI' ref from Metadata '/Game/HorrorEngine/AI/Leafs/IncrementPointIndex.PackageMetaData'
+[2020.11.28-20.29.22:798][947]LogMetaData: Removing '/Game/HorrorEngine/Blueprints/AI/Leafs/GetPlayerLocation.GetPlayerLocation_C' ref from Metadata '/Game/HorrorEngine/AI/Leafs/GetPlayerLocation.PackageMetaData'
+[2020.11.28-20.29.22:798][947]LogMetaData: Removing '/Game/HorrorEngine/Blueprints/AI/Leafs/GetPlayerLocation.GetPlayerLocation_C:ReceiveExecuteAI' ref from Metadata '/Game/HorrorEngine/AI/Leafs/GetPlayerLocation.PackageMetaData'
+[2020.11.28-20.29.22:798][947]LogMetaData: Removing '/Game/HorrorEngine/Blueprints/AI/Leafs/GetPlayerLocation.SKEL_GetPlayerLocation_C' ref from Metadata '/Game/HorrorEngine/AI/Leafs/GetPlayerLocation.PackageMetaData'
+[2020.11.28-20.29.22:798][947]LogMetaData: Removing '/Game/HorrorEngine/Blueprints/AI/Leafs/GetPlayerLocation.SKEL_GetPlayerLocation_C:ReceiveExecuteAI' ref from Metadata '/Game/HorrorEngine/AI/Leafs/GetPlayerLocation.PackageMetaData'
+[2020.11.28-20.29.22:820][947]LogMetaData: Removing '/Game/HorrorEngine/Blueprints/AI/Leafs/FindPatrolPoint.FindPatrolPoint_C' ref from Metadata '/Game/HorrorEngine/AI/Leafs/FindPatrolPoint.PackageMetaData'
+[2020.11.28-20.29.22:820][947]LogMetaData: Removing '/Game/HorrorEngine/Blueprints/AI/Leafs/FindPatrolPoint.FindPatrolPoint_C:ReceiveExecuteAI' ref from Metadata '/Game/HorrorEngine/AI/Leafs/FindPatrolPoint.PackageMetaData'
+[2020.11.28-20.29.22:820][947]LogMetaData: Removing '/Game/HorrorEngine/Blueprints/AI/Leafs/FindPatrolPoint.SKEL_FindPatrolPoint_C' ref from Metadata '/Game/HorrorEngine/AI/Leafs/FindPatrolPoint.PackageMetaData'
+[2020.11.28-20.29.22:820][947]LogMetaData: Removing '/Game/HorrorEngine/Blueprints/AI/Leafs/FindPatrolPoint.SKEL_FindPatrolPoint_C:ReceiveExecuteAI' ref from Metadata '/Game/HorrorEngine/AI/Leafs/FindPatrolPoint.PackageMetaData'
+[2020.11.28-20.29.22:841][947]LogMetaData: Removing '/Game/HorrorEngine/Blueprints/AI/Leafs/DencrementPointIndex.DencrementPointIndex_C' ref from Metadata '/Game/HorrorEngine/AI/Leafs/DencrementPointIndex.PackageMetaData'
+[2020.11.28-20.29.22:841][947]LogMetaData: Removing '/Game/HorrorEngine/Blueprints/AI/Leafs/DencrementPointIndex.DencrementPointIndex_C:ReceiveExecuteAI' ref from Metadata '/Game/HorrorEngine/AI/Leafs/DencrementPointIndex.PackageMetaData'
+[2020.11.28-20.29.22:841][947]LogMetaData: Removing '/Game/HorrorEngine/Blueprints/AI/Leafs/DencrementPointIndex.SKEL_DencrementPointIndex_C' ref from Metadata '/Game/HorrorEngine/AI/Leafs/DencrementPointIndex.PackageMetaData'
+[2020.11.28-20.29.22:841][947]LogMetaData: Removing '/Game/HorrorEngine/Blueprints/AI/Leafs/DencrementPointIndex.SKEL_DencrementPointIndex_C:ReceiveExecuteAI' ref from Metadata '/Game/HorrorEngine/AI/Leafs/DencrementPointIndex.PackageMetaData'
+[2020.11.28-20.29.22:862][947]LogMetaData: Removing '/Game/HorrorEngine/Blueprints/AI/Leafs/ChasePlayer.ChasePlayer_C' ref from Metadata '/Game/HorrorEngine/AI/Leafs/ChasePlayer.PackageMetaData'
+[2020.11.28-20.29.22:862][947]LogMetaData: Removing '/Game/HorrorEngine/Blueprints/AI/Leafs/ChasePlayer.ChasePlayer_C:ReceiveExecuteAI' ref from Metadata '/Game/HorrorEngine/AI/Leafs/ChasePlayer.PackageMetaData'
+[2020.11.28-20.29.22:862][947]LogMetaData: Removing '/Game/HorrorEngine/Blueprints/AI/Leafs/ChasePlayer.SKEL_ChasePlayer_C' ref from Metadata '/Game/HorrorEngine/AI/Leafs/ChasePlayer.PackageMetaData'
+[2020.11.28-20.29.22:862][947]LogMetaData: Removing '/Game/HorrorEngine/Blueprints/AI/Leafs/ChasePlayer.SKEL_ChasePlayer_C:ReceiveExecuteAI' ref from Metadata '/Game/HorrorEngine/AI/Leafs/ChasePlayer.PackageMetaData'
+[2020.11.28-20.29.22:884][947]LogMetaData: Removing '/Game/HorrorEngine/Blueprints/AI/MoveToFast_New.MoveToFast_New_C' ref from Metadata '/Game/HorrorEngine/AI/MoveToFast_New.PackageMetaData'
+[2020.11.28-20.29.22:884][947]LogMetaData: Removing '/Game/HorrorEngine/Blueprints/AI/MoveToFast_New.SKEL_MoveToFast_New_C' ref from Metadata '/Game/HorrorEngine/AI/MoveToFast_New.PackageMetaData'
+[2020.11.28-20.29.22:908][947]LogMetaData: Removing '/Game/HorrorEngine/Blueprints/AI/AI_HP.AI_HP_C' ref from Metadata '/Game/HorrorEngine/AI/AI_HP.PackageMetaData'
+[2020.11.28-20.29.22:908][947]LogMetaData: Removing '/Game/HorrorEngine/Blueprints/AI/AI_HP.AI_HP_C:GetPercent_0' ref from Metadata '/Game/HorrorEngine/AI/AI_HP.PackageMetaData'
+[2020.11.28-20.29.22:908][947]LogMetaData: Removing '/Game/HorrorEngine/Blueprints/AI/AI_HP.SKEL_AI_HP_C' ref from Metadata '/Game/HorrorEngine/AI/AI_HP.PackageMetaData'
+[2020.11.28-20.29.22:908][947]LogMetaData: Removing '/Game/HorrorEngine/Blueprints/AI/AI_HP.SKEL_AI_HP_C:PreConstruct' ref from Metadata '/Game/HorrorEngine/AI/AI_HP.PackageMetaData'
+[2020.11.28-20.29.22:908][947]LogMetaData: Removing '/Game/HorrorEngine/Blueprints/AI/AI_HP.SKEL_AI_HP_C:Construct' ref from Metadata '/Game/HorrorEngine/AI/AI_HP.PackageMetaData'
+[2020.11.28-20.29.22:908][947]LogMetaData: Removing '/Game/HorrorEngine/Blueprints/AI/AI_HP.SKEL_AI_HP_C:Tick' ref from Metadata '/Game/HorrorEngine/AI/AI_HP.PackageMetaData'
+[2020.11.28-20.29.22:908][947]LogMetaData: Removing '/Game/HorrorEngine/Blueprints/AI/AI_HP.SKEL_AI_HP_C:GetPercent_0' ref from Metadata '/Game/HorrorEngine/AI/AI_HP.PackageMetaData'
+[2020.11.28-20.29.22:908][947]LogMetaData: Removing '/Game/HorrorEngine/Blueprints/AI/AI_HP.AI_HP:EventGraph.K2Node_Event_0' ref from Metadata '/Game/HorrorEngine/AI/AI_HP.PackageMetaData'
+[2020.11.28-20.29.22:908][947]LogMetaData: Removing '/Game/HorrorEngine/Blueprints/AI/AI_HP.AI_HP:EventGraph.K2Node_Event_1' ref from Metadata '/Game/HorrorEngine/AI/AI_HP.PackageMetaData'
+[2020.11.28-20.29.22:908][947]LogMetaData: Removing '/Game/HorrorEngine/Blueprints/AI/AI_HP.AI_HP:EventGraph.K2Node_Event_2' ref from Metadata '/Game/HorrorEngine/AI/AI_HP.PackageMetaData'
+[2020.11.28-20.29.22:908][947]LogMetaData: Removing '/Game/HorrorEngine/Blueprints/AI/AI_HP.AI_HP:GetPercent_0.K2Node_FunctionEntry_0' ref from Metadata '/Game/HorrorEngine/AI/AI_HP.PackageMetaData'
+[2020.11.28-20.29.22:908][947]LogMetaData: Removing '/Game/HorrorEngine/Blueprints/AI/AI_HP.AI_HP:GetPercent_0.K2Node_FunctionResult_0' ref from Metadata '/Game/HorrorEngine/AI/AI_HP.PackageMetaData'
+[2020.11.28-20.29.22:929][947]LogMetaData: Removing '/Game/HorrorEngine/Blueprints/AI/HitTest.HitTest_C' ref from Metadata '/Game/HorrorEngine/AI/HitTest.PackageMetaData'
+[2020.11.28-20.29.22:929][947]LogMetaData: Removing '/Game/HorrorEngine/Blueprints/AI/HitTest.HitTest_C:Damage' ref from Metadata '/Game/HorrorEngine/AI/HitTest.PackageMetaData'
+[2020.11.28-20.29.22:929][947]LogMetaData: Removing '/Game/HorrorEngine/Blueprints/AI/HitTest.SKEL_HitTest_C' ref from Metadata '/Game/HorrorEngine/AI/HitTest.PackageMetaData'
+[2020.11.28-20.29.22:929][947]LogMetaData: Removing '/Game/HorrorEngine/Blueprints/AI/HitTest.SKEL_HitTest_C:ReceiveBeginPlay' ref from Metadata '/Game/HorrorEngine/AI/HitTest.PackageMetaData'
+[2020.11.28-20.29.22:929][947]LogMetaData: Removing '/Game/HorrorEngine/Blueprints/AI/HitTest.SKEL_HitTest_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/HorrorEngine/AI/HitTest.PackageMetaData'
+[2020.11.28-20.29.22:929][947]LogMetaData: Removing '/Game/HorrorEngine/Blueprints/AI/HitTest.SKEL_HitTest_C:ReceiveTick' ref from Metadata '/Game/HorrorEngine/AI/HitTest.PackageMetaData'
+[2020.11.28-20.29.22:929][947]LogMetaData: Removing '/Game/HorrorEngine/Blueprints/AI/HitTest.SKEL_HitTest_C:Damage' ref from Metadata '/Game/HorrorEngine/AI/HitTest.PackageMetaData'
+[2020.11.28-20.29.22:929][947]LogMetaData: Removing '/Game/HorrorEngine/Blueprints/AI/HitTest.SKEL_HitTest_C:UserConstructionScript' ref from Metadata '/Game/HorrorEngine/AI/HitTest.PackageMetaData'
+[2020.11.28-20.29.22:929][947]LogMetaData: Removing '/Game/HorrorEngine/Blueprints/AI/HitTest.HitTest:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/HorrorEngine/AI/HitTest.PackageMetaData'
+[2020.11.28-20.29.22:929][947]LogMetaData: Removing '/Game/HorrorEngine/Blueprints/AI/HitTest.HitTest:EventGraph.K2Node_Event_0' ref from Metadata '/Game/HorrorEngine/AI/HitTest.PackageMetaData'
+[2020.11.28-20.29.22:930][947]LogMetaData: Removing '/Game/HorrorEngine/Blueprints/AI/HitTest.HitTest:EventGraph.K2Node_CallParentFunction_0' ref from Metadata '/Game/HorrorEngine/AI/HitTest.PackageMetaData'
+[2020.11.28-20.29.22:930][947]LogMetaData: Removing '/Game/HorrorEngine/Blueprints/AI/HitTest.HitTest:EventGraph.K2Node_Event_1' ref from Metadata '/Game/HorrorEngine/AI/HitTest.PackageMetaData'
+[2020.11.28-20.29.22:930][947]LogMetaData: Removing '/Game/HorrorEngine/Blueprints/AI/HitTest.HitTest:EventGraph.K2Node_Event_2' ref from Metadata '/Game/HorrorEngine/AI/HitTest.PackageMetaData'
+[2020.11.28-20.29.22:966][947]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HorrorEngine/Blueprints/AI/Base_BB" FILE="C:/Users/clair/Documents/Unreal Projects/HEREloaded/Content/HorrorEngine/Blueprints/AI/Base_BB.uasset" SILENT=true
+[2020.11.28-20.29.22:975][947]LogSavePackage: Moving 'C:/Users/clair/Documents/Unreal Projects/HEREloaded/Saved/Base_BB02DC25194ABD15D75517E0A372D3AF2E.tmp' to 'C:/Users/clair/Documents/Unreal Projects/HEREloaded/Content/HorrorEngine/Blueprints/AI/Base_BB.uasset'
+[2020.11.28-20.29.22:977][947]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HorrorEngine/Blueprints/AI/Leafs/Walk" FILE="C:/Users/clair/Documents/Unreal Projects/HEREloaded/Content/HorrorEngine/Blueprints/AI/Leafs/Walk.uasset" SILENT=true
+[2020.11.28-20.29.22:987][947]LogSavePackage: Moving 'C:/Users/clair/Documents/Unreal Projects/HEREloaded/Saved/WalkDC46934848663F5874677B9E7B7EB4D4.tmp' to 'C:/Users/clair/Documents/Unreal Projects/HEREloaded/Content/HorrorEngine/Blueprints/AI/Leafs/Walk.uasset'
+[2020.11.28-20.29.22:989][947]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HorrorEngine/Blueprints/AI/Leafs/Run" FILE="C:/Users/clair/Documents/Unreal Projects/HEREloaded/Content/HorrorEngine/Blueprints/AI/Leafs/Run.uasset" SILENT=true
+[2020.11.28-20.29.22:999][947]LogSavePackage: Moving 'C:/Users/clair/Documents/Unreal Projects/HEREloaded/Saved/RunF82568AF48DEFE3FBAD4C8AF4F8D24D7.tmp' to 'C:/Users/clair/Documents/Unreal Projects/HEREloaded/Content/HorrorEngine/Blueprints/AI/Leafs/Run.uasset'
+[2020.11.28-20.29.23:012][947]LogSavePackage: Moving 'C:/Users/clair/Documents/Unreal Projects/HEREloaded/Saved/MoveToPlayer86B2FCC2433369CA02060A88E9BE5D07.tmp' to 'C:/Users/clair/Documents/Unreal Projects/HEREloaded/Content/HorrorEngine/Blueprints/AI/Leafs/MoveToPlayer.uasset'
+[2020.11.28-20.29.23:014][947]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HorrorEngine/Blueprints/AI/Leafs/GoTo" FILE="C:/Users/clair/Documents/Unreal Projects/HEREloaded/Content/HorrorEngine/Blueprints/AI/Leafs/GoTo.uasset" SILENT=true
+[2020.11.28-20.29.23:025][947]LogSavePackage: Moving 'C:/Users/clair/Documents/Unreal Projects/HEREloaded/Saved/GoTo9133D7C545DC82FFCE5C148F6A1BD4F2.tmp' to 'C:/Users/clair/Documents/Unreal Projects/HEREloaded/Content/HorrorEngine/Blueprints/AI/Leafs/GoTo.uasset'
+[2020.11.28-20.29.23:038][947]LogSavePackage: Moving 'C:/Users/clair/Documents/Unreal Projects/HEREloaded/Saved/GetRandomLocation7505A88B4358474C69B6E69AA4DB5A94.tmp' to 'C:/Users/clair/Documents/Unreal Projects/HEREloaded/Content/HorrorEngine/Blueprints/AI/Leafs/GetRandomLocation.uasset'
+[2020.11.28-20.29.23:050][947]LogSavePackage: Moving 'C:/Users/clair/Documents/Unreal Projects/HEREloaded/Saved/GetNextTargetLocation19B6F4E94FFCC365D3164BA57BFC3A7A.tmp' to 'C:/Users/clair/Documents/Unreal Projects/HEREloaded/Content/HorrorEngine/Blueprints/AI/Leafs/GetNextTargetLocation.uasset'
+[2020.11.28-20.29.23:052][947]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HorrorEngine/Blueprints/AI/Base_BT" FILE="C:/Users/clair/Documents/Unreal Projects/HEREloaded/Content/HorrorEngine/Blueprints/AI/Base_BT.uasset" SILENT=true
+[2020.11.28-20.29.23:071][947]LogSavePackage: Moving 'C:/Users/clair/Documents/Unreal Projects/HEREloaded/Saved/Base_BT9DD6FFF84A7BF96E8B160E8FD35DE37A.tmp' to 'C:/Users/clair/Documents/Unreal Projects/HEREloaded/Content/HorrorEngine/Blueprints/AI/Base_BT.uasset'
+[2020.11.28-20.29.23:079][947]LogSavePackage: Moving 'C:/Users/clair/Documents/Unreal Projects/HEREloaded/Saved/Damageable61A2334A48F7165B7A191396CAE3A0C7.tmp' to 'C:/Users/clair/Documents/Unreal Projects/HEREloaded/Content/HorrorEngine/Blueprints/AI/Enums/Damageable.uasset'
+[2020.11.28-20.29.23:086][947]LogSavePackage: Moving 'C:/Users/clair/Documents/Unreal Projects/HEREloaded/Saved/TempermentC2894FA94D07A62A6838E3B8FA5E2B63.tmp' to 'C:/Users/clair/Documents/Unreal Projects/HEREloaded/Content/HorrorEngine/Blueprints/AI/Enums/Temperment.uasset'
+[2020.11.28-20.29.23:094][947]LogSavePackage: Moving 'C:/Users/clair/Documents/Unreal Projects/HEREloaded/Saved/DirectionC83EE8E143EC8ACB3CD3B5BFF3DE189E.tmp' to 'C:/Users/clair/Documents/Unreal Projects/HEREloaded/Content/HorrorEngine/Blueprints/AI/Enums/Direction.uasset'
+[2020.11.28-20.29.23:096][947]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HorrorEngine/Blueprints/AI/Enums/Senses" FILE="C:/Users/clair/Documents/Unreal Projects/HEREloaded/Content/HorrorEngine/Blueprints/AI/Enums/Senses.uasset" SILENT=true
+[2020.11.28-20.29.23:101][947]LogSavePackage: Moving 'C:/Users/clair/Documents/Unreal Projects/HEREloaded/Saved/Senses0149BA1949DEFC9576417FA75C7A41C8.tmp' to 'C:/Users/clair/Documents/Unreal Projects/HEREloaded/Content/HorrorEngine/Blueprints/AI/Enums/Senses.uasset'
+[2020.11.28-20.29.23:138][947]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HorrorEngine/Blueprints/AI/AIBase" FILE="C:/Users/clair/Documents/Unreal Projects/HEREloaded/Content/HorrorEngine/Blueprints/AI/AIBase.uasset" SILENT=true
+[2020.11.28-20.29.23:194][947]LogSavePackage: Moving 'C:/Users/clair/Documents/Unreal Projects/HEREloaded/Saved/AIBaseB8434D3744929CF5DA4B5AA7D2BDF022.tmp' to 'C:/Users/clair/Documents/Unreal Projects/HEREloaded/Content/HorrorEngine/Blueprints/AI/AIBase.uasset'
+[2020.11.28-20.29.23:196][947]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HorrorEngine/Blueprints/AI/Base_AI" FILE="C:/Users/clair/Documents/Unreal Projects/HEREloaded/Content/HorrorEngine/Blueprints/AI/Base_AI.uasset" SILENT=true
+[2020.11.28-20.29.23:225][947]LogSavePackage: Moving 'C:/Users/clair/Documents/Unreal Projects/HEREloaded/Saved/Base_AI5A046C5A451C81F80E3E33A0C5E2D512.tmp' to 'C:/Users/clair/Documents/Unreal Projects/HEREloaded/Content/HorrorEngine/Blueprints/AI/Base_AI.uasset'
+[2020.11.28-20.29.23:285][947]LogSavePackage: Moving 'C:/Users/clair/Documents/Unreal Projects/HEREloaded/Saved/Attacking_mixamo_com5F1B86AA4B570C122E562BBC641C82F2.tmp' to 'C:/Users/clair/Documents/Unreal Projects/HEREloaded/Content/HorrorEngine/Blueprints/AI/Attacking_mixamo_com.uasset'
+[2020.11.28-20.29.23:287][947]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HorrorEngine/Blueprints/AI/PatrolPath" FILE="C:/Users/clair/Documents/Unreal Projects/HEREloaded/Content/HorrorEngine/Blueprints/AI/PatrolPath.uasset" SILENT=true
+[2020.11.28-20.29.23:296][947]LogSavePackage: Moving 'C:/Users/clair/Documents/Unreal Projects/HEREloaded/Saved/PatrolPathDE703CE0448D6B6A61144F92B3F970B3.tmp' to 'C:/Users/clair/Documents/Unreal Projects/HEREloaded/Content/HorrorEngine/Blueprints/AI/PatrolPath.uasset'
+[2020.11.28-20.29.23:318][947]LogSavePackage: Moving 'C:/Users/clair/Documents/Unreal Projects/HEREloaded/Saved/Stand_To_Prone1324D0BF44CDC86A78171E69BB78E769D.tmp' to 'C:/Users/clair/Documents/Unreal Projects/HEREloaded/Content/HorrorEngine/Blueprints/AI/Stand_To_Prone1.uasset'
+[2020.11.28-20.29.23:328][947]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HorrorEngine/Blueprints/AI/Crouch" FILE="C:/Users/clair/Documents/Unreal Projects/HEREloaded/Content/HorrorEngine/Blueprints/AI/Crouch.uasset" SILENT=true
+[2020.11.28-20.29.23:340][947]LogSavePackage: Moving 'C:/Users/clair/Documents/Unreal Projects/HEREloaded/Saved/CrouchE26EA1D447518ED6F44DB096544893A5.tmp' to 'C:/Users/clair/Documents/Unreal Projects/HEREloaded/Content/HorrorEngine/Blueprints/AI/Crouch.uasset'
+[2020.11.28-20.29.23:354][947]LogSavePackage: Moving 'C:/Users/clair/Documents/Unreal Projects/HEREloaded/Saved/PathLoops2943C8C248E5D70BA82D76A5728C342A.tmp' to 'C:/Users/clair/Documents/Unreal Projects/HEREloaded/Content/HorrorEngine/Blueprints/AI/Leafs/PathLoops.uasset'
+[2020.11.28-20.29.23:373][947]LogSavePackage: Moving 'C:/Users/clair/Documents/Unreal Projects/HEREloaded/Saved/IncrementPointIndexFF443BAF45F10CB8B314428F11832674.tmp' to 'C:/Users/clair/Documents/Unreal Projects/HEREloaded/Content/HorrorEngine/Blueprints/AI/Leafs/IncrementPointIndex.uasset'
+[2020.11.28-20.29.23:387][947]LogSavePackage: Moving 'C:/Users/clair/Documents/Unreal Projects/HEREloaded/Saved/GetPlayerLocationCE40DE654204ABB15A9700BAB87495B0.tmp' to 'C:/Users/clair/Documents/Unreal Projects/HEREloaded/Content/HorrorEngine/Blueprints/AI/Leafs/GetPlayerLocation.uasset'
+[2020.11.28-20.29.23:403][947]LogSavePackage: Moving 'C:/Users/clair/Documents/Unreal Projects/HEREloaded/Saved/FindPatrolPoint5FD88D7C4091C7B3BB9BE8B2967C78DA.tmp' to 'C:/Users/clair/Documents/Unreal Projects/HEREloaded/Content/HorrorEngine/Blueprints/AI/Leafs/FindPatrolPoint.uasset'
+[2020.11.28-20.29.23:421][947]LogSavePackage: Moving 'C:/Users/clair/Documents/Unreal Projects/HEREloaded/Saved/DencrementPointIndexBD96A9904626512E65D8258BB244D0A6.tmp' to 'C:/Users/clair/Documents/Unreal Projects/HEREloaded/Content/HorrorEngine/Blueprints/AI/Leafs/DencrementPointIndex.uasset'
+[2020.11.28-20.29.23:433][947]LogSavePackage: Moving 'C:/Users/clair/Documents/Unreal Projects/HEREloaded/Saved/ChasePlayerE29474FA42406F18C669B683960BA613.tmp' to 'C:/Users/clair/Documents/Unreal Projects/HEREloaded/Content/HorrorEngine/Blueprints/AI/Leafs/ChasePlayer.uasset'
+[2020.11.28-20.29.23:441][947]LogSavePackage: Moving 'C:/Users/clair/Documents/Unreal Projects/HEREloaded/Saved/MoveToFast_NewD13988AD4AE49BCFC4B36D82C4521A66.tmp' to 'C:/Users/clair/Documents/Unreal Projects/HEREloaded/Content/HorrorEngine/Blueprints/AI/MoveToFast_New.uasset'
+[2020.11.28-20.29.23:443][947]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HorrorEngine/Blueprints/AI/AI_HP" FILE="C:/Users/clair/Documents/Unreal Projects/HEREloaded/Content/HorrorEngine/Blueprints/AI/AI_HP.uasset" SILENT=true
+[2020.11.28-20.29.23:453][947]LogSavePackage: Moving 'C:/Users/clair/Documents/Unreal Projects/HEREloaded/Saved/AI_HPD833A7C740A5781A6D6F98BD938A0605.tmp' to 'C:/Users/clair/Documents/Unreal Projects/HEREloaded/Content/HorrorEngine/Blueprints/AI/AI_HP.uasset'
+[2020.11.28-20.29.23:464][947]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HorrorEngine/Blueprints/AI/HitTest" FILE="C:/Users/clair/Documents/Unreal Projects/HEREloaded/Content/HorrorEngine/Blueprints/AI/HitTest.uasset" SILENT=true
+[2020.11.28-20.29.23:485][947]LogSavePackage: Moving 'C:/Users/clair/Documents/Unreal Projects/HEREloaded/Saved/HitTest02835CF14D58AA2CDE82038D4A7F8B4A.tmp' to 'C:/Users/clair/Documents/Unreal Projects/HEREloaded/Content/HorrorEngine/Blueprints/AI/HitTest.uasset'
+[2020.11.28-20.29.29:046][947]LogUObjectHash: Compacting FUObjectHashTables data took   4.94ms
+[2020.11.28-20.29.29:070][947]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2020.11.28-20.29.29:093][947]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2020.11.28-20.29.29:118][947]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2020.11.28-20.29.29:141][947]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2020.11.28-20.29.29:165][947]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2020.11.28-20.29.29:188][947]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2020.11.28-20.29.29:210][947]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2020.11.28-20.29.29:233][947]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2020.11.28-20.29.29:258][947]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2020.11.28-20.29.29:281][947]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2020.11.28-20.29.29:305][947]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2020.11.28-20.29.29:327][947]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2020.11.28-20.29.29:350][947]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2020.11.28-20.29.29:373][947]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2020.11.28-20.29.29:396][947]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2020.11.28-20.29.29:418][947]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2020.11.28-20.29.29:441][947]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2020.11.28-20.29.29:466][947]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2020.11.28-20.29.29:488][947]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2020.11.28-20.29.29:511][947]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2020.11.28-20.29.29:534][947]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2020.11.28-20.29.29:558][947]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2020.11.28-20.29.29:581][947]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2020.11.28-20.29.29:604][947]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2020.11.28-20.29.29:628][947]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2020.11.28-20.29.29:652][947]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2020.11.28-20.29.29:682][947]LogUObjectHash: Compacting FUObjectHashTables data took   3.35ms
+[2020.11.28-20.29.29:705][947]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2020.11.28-20.29.29:730][947]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HorrorEngine/AI/AITarget" FILE="C:/Users/clair/Documents/Unreal Projects/HEREloaded/Content/HorrorEngine/AI/AITarget.uasset" SILENT=true
+[2020.11.28-20.29.29:752][947]LogSavePackage: Moving 'C:/Users/clair/Documents/Unreal Projects/HEREloaded/Saved/AITarget87C26C27445DCEBE65E48BB96042E177.tmp' to 'C:/Users/clair/Documents/Unreal Projects/HEREloaded/Content/HorrorEngine/AI/AITarget.uasset'
+[2020.11.28-20.29.29:753][947]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HorrorEngine/AI/AITarget_C" FILE="C:/Users/clair/Documents/Unreal Projects/HEREloaded/Content/HorrorEngine/AI/AITarget_C.uasset" SILENT=true
+[2020.11.28-20.29.29:770][947]LogSavePackage: Moving 'C:/Users/clair/Documents/Unreal Projects/HEREloaded/Saved/AITarget_CE56D054D448423F7AB04229D916CD5EE.tmp' to 'C:/Users/clair/Documents/Unreal Projects/HEREloaded/Content/HorrorEngine/AI/AITarget_C.uasset'
+[2020.11.28-20.29.30:420][947]AssetCheck: New page: Asset Save: multiple assets
+[2020.11.28-20.29.30:420][947]LogContentValidation: Display: Validating BlackboardData /Game/HorrorEngine/Blueprints/AI/Base_BB.Base_BB
+[2020.11.28-20.29.30:420][947]LogContentValidation: Display: Validating Blueprint /Game/HorrorEngine/Blueprints/AI/Leafs/Walk.Walk
+[2020.11.28-20.29.30:420][947]LogContentValidation: Display: Validating Blueprint /Game/HorrorEngine/Blueprints/AI/Leafs/Run.Run
+[2020.11.28-20.29.30:420][947]LogContentValidation: Display: Validating Blueprint /Game/HorrorEngine/Blueprints/AI/Leafs/MoveToPlayer.MoveToPlayer
+[2020.11.28-20.29.30:420][947]LogContentValidation: Display: Validating Blueprint /Game/HorrorEngine/Blueprints/AI/Leafs/GoTo.GoTo
+[2020.11.28-20.29.30:420][947]LogContentValidation: Display: Validating Blueprint /Game/HorrorEngine/Blueprints/AI/Leafs/GetRandomLocation.GetRandomLocation
+[2020.11.28-20.29.30:420][947]LogContentValidation: Display: Validating Blueprint /Game/HorrorEngine/Blueprints/AI/Leafs/GetNextTargetLocation.GetNextTargetLocation
+[2020.11.28-20.29.30:420][947]LogContentValidation: Display: Validating BehaviorTree /Game/HorrorEngine/Blueprints/AI/Base_BT.Base_BT
+[2020.11.28-20.29.30:420][947]LogContentValidation: Display: Validating UserDefinedEnum /Game/HorrorEngine/Blueprints/AI/Enums/Damageable.Damageable
+[2020.11.28-20.29.30:420][947]LogContentValidation: Display: Validating UserDefinedEnum /Game/HorrorEngine/Blueprints/AI/Enums/Temperment.Temperment
+[2020.11.28-20.29.30:420][947]LogContentValidation: Display: Validating UserDefinedEnum /Game/HorrorEngine/Blueprints/AI/Enums/Direction.Direction
+[2020.11.28-20.29.30:420][947]LogContentValidation: Display: Validating UserDefinedEnum /Game/HorrorEngine/Blueprints/AI/Enums/Senses.Senses
+[2020.11.28-20.29.30:420][947]LogContentValidation: Display: Validating Blueprint /Game/HorrorEngine/Blueprints/AI/AIBase.AIBase
+[2020.11.28-20.29.30:420][947]LogContentValidation: Display: Validating Blueprint /Game/HorrorEngine/Blueprints/AI/Base_AI.Base_AI
+[2020.11.28-20.29.30:420][947]LogContentValidation: Display: Validating AnimSequence /Game/HorrorEngine/Blueprints/AI/Attacking_mixamo_com.Attacking_mixamo_com
+[2020.11.28-20.29.30:420][947]LogContentValidation: Display: Validating Blueprint /Game/HorrorEngine/Blueprints/AI/PatrolPath.PatrolPath
+[2020.11.28-20.29.30:420][947]LogContentValidation: Display: Validating AnimSequence /Game/HorrorEngine/Blueprints/AI/Stand_To_Prone1.Stand_To_Prone1
+[2020.11.28-20.29.30:420][947]LogContentValidation: Display: Validating AnimSequence /Game/HorrorEngine/Blueprints/AI/Crouch.Crouch
+[2020.11.28-20.29.30:420][947]LogContentValidation: Display: Validating Blueprint /Game/HorrorEngine/Blueprints/AI/Leafs/PathLoops.PathLoops
+[2020.11.28-20.29.30:420][947]LogContentValidation: Display: Validating Blueprint /Game/HorrorEngine/Blueprints/AI/Leafs/IncrementPointIndex.IncrementPointIndex
+[2020.11.28-20.29.30:420][947]LogContentValidation: Display: Validating Blueprint /Game/HorrorEngine/Blueprints/AI/Leafs/GetPlayerLocation.GetPlayerLocation
+[2020.11.28-20.29.30:420][947]LogContentValidation: Display: Validating Blueprint /Game/HorrorEngine/Blueprints/AI/Leafs/FindPatrolPoint.FindPatrolPoint
+[2020.11.28-20.29.30:420][947]LogContentValidation: Display: Validating Blueprint /Game/HorrorEngine/Blueprints/AI/Leafs/DencrementPointIndex.DencrementPointIndex
+[2020.11.28-20.29.30:420][947]LogContentValidation: Display: Validating Blueprint /Game/HorrorEngine/Blueprints/AI/Leafs/ChasePlayer.ChasePlayer
+[2020.11.28-20.29.30:420][947]LogContentValidation: Display: Validating Blueprint /Game/HorrorEngine/Blueprints/AI/MoveToFast_New.MoveToFast_New
+[2020.11.28-20.29.30:420][947]LogContentValidation: Display: Validating WidgetBlueprint /Game/HorrorEngine/Blueprints/AI/AI_HP.AI_HP
+[2020.11.28-20.29.30:420][947]LogContentValidation: Display: Validating Blueprint /Game/HorrorEngine/Blueprints/AI/HitTest.HitTest
+[2020.11.28-20.29.30:420][947]LogContentValidation: Display: Validating ObjectRedirector /Game/HorrorEngine/AI/AITarget.AITarget
+[2020.11.28-20.29.30:420][947]LogContentValidation: Display: Validating ObjectRedirector /Game/HorrorEngine/AI/AITarget_C.AITarget_C
+[2020.11.28-20.29.36:070][186]LogUObjectHash: Compacting FUObjectHashTables data took   4.56ms
+[2020.11.28-20.29.39:624][186]LogSlate: Window 'Delete Assets' being destroyed
+[2020.11.28-20.29.39:648][186]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2020.11.28-20.29.40:137][186]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.489 s
+[2020.11.28-20.29.40:138][186]LogOutputDevice: Error: === Handled ensure: ===
+[2020.11.28-20.29.40:138][186]LogOutputDevice: Error: 
+[2020.11.28-20.29.40:138][186]LogOutputDevice: Error: Ensure condition failed: Found [File:D:/Build/++UE4/Sync/Engine/Source/Runtime/CoreUObject/Private/Misc/RedirectCollector.cpp] [Line: 201]
+[2020.11.28-20.29.40:138][186]LogOutputDevice: Error: Cannot remove redirection from /Game/HorrorEngine/AI/AITarget_C.AITarget_C, it was not registered
+[2020.11.28-20.29.40:138][186]LogOutputDevice: Error: Stack: 
+[2020.11.28-20.29.40:138][186]LogOutputDevice: Error: [Callstack] 0x00007ffd3a89bfc8 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.11.28-20.29.40:138][186]LogOutputDevice: Error: [Callstack] 0x00007ffd3a4b06b1 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.11.28-20.29.40:138][186]LogOutputDevice: Error: [Callstack] 0x00007ffd5faad25e UE4Editor-AssetRegistry.dll!UnknownFunction []
+[2020.11.28-20.29.40:138][186]LogOutputDevice: Error: [Callstack] 0x00007ffd31e9bd0c UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.11.28-20.29.40:138][186]LogOutputDevice: Error: [Callstack] 0x00007ffd31e9b6df UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.11.28-20.29.40:138][186]LogOutputDevice: Error: [Callstack] 0x00007ffd31659cf8 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.11.28-20.29.40:138][186]LogOutputDevice: Error: [Callstack] 0x00007ffd318e9dee UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.11.28-20.29.40:138][186]LogOutputDevice: Error: [Callstack] 0x00007ffd318f6dc7 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.11.28-20.29.40:138][186]LogOutputDevice: Error: [Callstack] 0x00007ffd3a08207e UE4Editor-Slate.dll!UnknownFunction []
+[2020.11.28-20.29.40:138][186]LogOutputDevice: Error: [Callstack] 0x00007ffd3a09b27e UE4Editor-Slate.dll!UnknownFunction []
+[2020.11.28-20.29.40:138][186]LogOutputDevice: Error: [Callstack] 0x00007ffd39ee2dc8 UE4Editor-Slate.dll!UnknownFunction []
+[2020.11.28-20.29.40:138][186]LogOutputDevice: Error: [Callstack] 0x00007ffd39f669cf UE4Editor-Slate.dll!UnknownFunction []
+[2020.11.28-20.29.40:138][186]LogOutputDevice: Error: [Callstack] 0x00007ffd39f4f4b2 UE4Editor-Slate.dll!UnknownFunction []
+[2020.11.28-20.29.40:138][186]LogOutputDevice: Error: [Callstack] 0x00007ffd39f42392 UE4Editor-Slate.dll!UnknownFunction []
+[2020.11.28-20.29.40:138][186]LogOutputDevice: Error: [Callstack] 0x00007ffd86737f88 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.11.28-20.29.40:138][186]LogOutputDevice: Error: [Callstack] 0x00007ffd86725c87 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.11.28-20.29.40:138][186]LogOutputDevice: Error: [Callstack] 0x00007ffd8673a619 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.11.28-20.29.40:138][186]LogOutputDevice: Error: [Callstack] 0x00007ffd867217d0 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.11.28-20.29.40:138][186]LogOutputDevice: Error: [Callstack] 0x00007ffdbc99e858 USER32.dll!UnknownFunction []
+[2020.11.28-20.29.40:138][186]LogOutputDevice: Error: [Callstack] 0x00007ffdbc99e299 USER32.dll!UnknownFunction []
+[2020.11.28-20.29.40:138][186]LogOutputDevice: Error: [Callstack] 0x00007ffd8673b9d9 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.11.28-20.29.40:138][186]LogOutputDevice: Error: [Callstack] 0x00007ffd39f70d5d UE4Editor-Slate.dll!UnknownFunction []
+[2020.11.28-20.29.40:138][186]LogOutputDevice: Error: [Callstack] 0x00007ffd39f0bdb7 UE4Editor-Slate.dll!UnknownFunction []
+[2020.11.28-20.29.40:138][186]LogOutputDevice: Error: [Callstack] 0x00007ffd3198f00e UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.11.28-20.29.40:138][186]LogOutputDevice: Error: [Callstack] 0x00007ffd31e9af1c UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.11.28-20.29.40:138][186]LogOutputDevice: Error: [Callstack] 0x00007ffd254bd838 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2020.11.28-20.29.40:138][186]LogOutputDevice: Error: [Callstack] 0x00007ffd254c9f94 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2020.11.28-20.29.40:138][186]LogOutputDevice: Error: [Callstack] 0x00007ffd254c5722 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2020.11.28-20.29.40:138][186]LogOutputDevice: Error: [Callstack] 0x00007ffd25527f72 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2020.11.28-20.29.40:138][186]LogOutputDevice: Error: [Callstack] 0x00007ffd254c6847 UE4Editor-ContentBrowser.dll!UnknownFunction []
+[2020.11.28-20.29.40:138][186]LogOutputDevice: Error: [Callstack] 0x00007ffd3a08207e UE4Editor-Slate.dll!UnknownFunction []
+[2020.11.28-20.29.40:138][186]LogOutputDevice: Error: [Callstack] 0x00007ffd3a09b27e UE4Editor-Slate.dll!UnknownFunction []
+[2020.11.28-20.29.40:138][186]LogOutputDevice: Error: [Callstack] 0x00007ffd39ee2dc8 UE4Editor-Slate.dll!UnknownFunction []
+[2020.11.28-20.29.40:138][186]LogOutputDevice: Error: [Callstack] 0x00007ffd39f669cf UE4Editor-Slate.dll!UnknownFunction []
+[2020.11.28-20.29.40:138][186]LogOutputDevice: Error: [Callstack] 0x00007ffd39f4f4b2 UE4Editor-Slate.dll!UnknownFunction []
+[2020.11.28-20.29.40:138][186]LogOutputDevice: Error: [Callstack] 0x00007ffd39f42392 UE4Editor-Slate.dll!UnknownFunction []
+[2020.11.28-20.29.40:138][186]LogOutputDevice: Error: [Callstack] 0x00007ffd86737f88 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.11.28-20.29.40:138][186]LogOutputDevice: Error: [Callstack] 0x00007ffd86725c87 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.11.28-20.29.40:138][186]LogOutputDevice: Error: [Callstack] 0x00007ffd8673a619 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.11.28-20.29.40:138][186]LogOutputDevice: Error: [Callstack] 0x00007ffd867217d0 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.11.28-20.29.40:138][186]LogOutputDevice: Error: [Callstack] 0x00007ffdbc99e858 USER32.dll!UnknownFunction []
+[2020.11.28-20.29.40:138][186]LogOutputDevice: Error: [Callstack] 0x00007ffdbc99e299 USER32.dll!UnknownFunction []
+[2020.11.28-20.29.40:138][186]LogOutputDevice: Error: [Callstack] 0x00007ffd8673bb34 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.11.28-20.29.40:138][186]LogOutputDevice: Error: [Callstack] 0x00007ff68e9868c4 UE4Editor.exe!UnknownFunction []
+[2020.11.28-20.29.40:138][186]LogOutputDevice: Error: [Callstack] 0x00007ff68e99ba7c UE4Editor.exe!UnknownFunction []
+[2020.11.28-20.29.40:138][186]LogOutputDevice: Error: [Callstack] 0x00007ff68e99bb5a UE4Editor.exe!UnknownFunction []
+[2020.11.28-20.29.40:138][186]LogOutputDevice: Error: [Callstack] 0x00007ff68e9ae31d UE4Editor.exe!UnknownFunction []
+[2020.11.28-20.29.40:138][186]LogOutputDevice: Error: [Callstack] 0x00007ff68e9b145a UE4Editor.exe!UnknownFunction []
+[2020.11.28-20.29.40:138][186]LogOutputDevice: Error: [Callstack] 0x00007ffdbc6f7034 KERNEL32.DLL!UnknownFunction []
+[2020.11.28-20.29.40:138][186]LogOutputDevice: Error: [Callstack] 0x00007ffdbe6bcec1 ntdll.dll!UnknownFunction []
+[2020.11.28-20.29.40:138][186]LogOutputDevice: Error: 

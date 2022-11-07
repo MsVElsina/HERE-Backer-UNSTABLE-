@@ -1,6 +1,6 @@
 # HE_REloaded for (UE 5.0)
 Name subject to change, 
-This is my modifided version of the Free Horror Engine Asset for Unreal
+This is my modified version of the Free Horror Engine Asset for Unreal
 The goal of this project is to expand and improve the amazing HorrorEngine Asset
 
 The original HE asset was Developed by tansuergene

@@ -17,7 +17,7 @@ You can follow the development roadmap here:
 https://trello.com/b/8AYqMGTp/msvelsina-horror-development-addons-assets
 
 For support with HE Reloaded or even the market version of Horror Engine Please join the Community run discord server
-https://discord.gg/83UTpgh
+https://discord.com/invite/TnSfppSTQj
 
 If you want to support tansuergene please checkout thier marketplace assets
 https://www.unrealengine.com/marketplace/en-US/profile/tansuergene
